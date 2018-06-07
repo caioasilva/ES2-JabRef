@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JUnit Vintage" tests="533" skipped="0" failures="0" errors="0" time="12.217" hostname="mateus-PC" timestamp="2018-06-07T17:41:56">
+<testsuite name="JUnit Vintage" tests="533" skipped="0" failures="0" errors="0" time="37.607" hostname="mateus-PC" timestamp="2018-06-07T17:56:52">
 <properties>
 <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
 <property name="awt.useSystemAAFontSettings" value="gasp"/>
@@ -64,67 +64,67 @@
 <property name="user.timezone" value="America/Sao_Paulo"/>
 <property name="user.variant" value=""/>
 </properties>
-<testcase name="exportForNoEntriesWritesNothing" classname="org.jabref.logic.exporter.ModsExportFormatTest" time="0.001">
+<testcase name="exportForNoEntriesWritesNothing" classname="org.jabref.logic.exporter.ModsExportFormatTest" time="0.439">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ModsExportFormatTest]/[test:exportForNoEntriesWritesNothing(org.jabref.logic.exporter.ModsExportFormatTest)]
 display-name: exportForNoEntriesWritesNothing
 ]]></system-out>
 </testcase>
-<testcase name="emitWellFormedHtml" classname="org.jabref.logic.exporter.HtmlExportFormatTest" time="0.054">
+<testcase name="emitWellFormedHtml" classname="org.jabref.logic.exporter.HtmlExportFormatTest" time="1.16">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.HtmlExportFormatTest]/[test:emitWellFormedHtml(org.jabref.logic.exporter.HtmlExportFormatTest)]
 display-name: emitWellFormedHtml
 ]]></system-out>
 </testcase>
-<testcase name="testPerformExportForMultipleAuthors" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.016">
+<testcase name="testPerformExportForMultipleAuthors" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.546">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.CsvExportFormatTest]/[test:testPerformExportForMultipleAuthors(org.jabref.logic.exporter.CsvExportFormatTest)]
 display-name: testPerformExportForMultipleAuthors
 ]]></system-out>
 </testcase>
-<testcase name="testPerformExportForSingleAuthor" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.003">
+<testcase name="testPerformExportForSingleAuthor" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.04">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.CsvExportFormatTest]/[test:testPerformExportForSingleAuthor(org.jabref.logic.exporter.CsvExportFormatTest)]
 display-name: testPerformExportForSingleAuthor
 ]]></system-out>
 </testcase>
-<testcase name="testPerformExportForSingleEditor" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.004">
+<testcase name="testPerformExportForSingleEditor" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.274">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.CsvExportFormatTest]/[test:testPerformExportForSingleEditor(org.jabref.logic.exporter.CsvExportFormatTest)]
 display-name: testPerformExportForSingleEditor
 ]]></system-out>
 </testcase>
-<testcase name="testPerformExportForMultipleEditors" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.002">
+<testcase name="testPerformExportForMultipleEditors" classname="org.jabref.logic.exporter.CsvExportFormatTest" time="0.012">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.CsvExportFormatTest]/[test:testPerformExportForMultipleEditors(org.jabref.logic.exporter.CsvExportFormatTest)]
 display-name: testPerformExportForMultipleEditors
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[0: HTML file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[0: HTML file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.046">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B0%3A HTML file (*.html)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B0%3A HTML file (*.html)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[0: HTML file (*.html)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[0: HTML file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullEntriesThrowsNPE[0: HTML file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.074">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B0%3A HTML file (*.html)%5D]/[test:testExportingNullEntriesThrowsNPE%5B0%3A HTML file (*.html)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[0: HTML file (*.html)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[0: HTML file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullDatabaseThrowsNPE[0: HTML file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.134">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B0%3A HTML file (*.html)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B0%3A HTML file (*.html)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[0: HTML file (*.html)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[1: Simple HTML file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[1: Simple HTML file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B1%3A Simple HTML file (*.html)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B1%3A Simple HTML file (*.html)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[1: Simple HTML file (*.html)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[1: Simple HTML file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullEntriesThrowsNPE[1: Simple HTML file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.012">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B1%3A Simple HTML file (*.html)%5D]/[test:testExportingNullEntriesThrowsNPE%5B1%3A Simple HTML file (*.html)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[1: Simple HTML file (*.html)]
@@ -142,31 +142,31 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[2: Docbook 4.4 file (*.xml)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[2: Docbook 4.4 file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullEntriesThrowsNPE[2: Docbook 4.4 file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B2%3A Docbook 4.4 file (*.xml)%5D]/[test:testExportingNullEntriesThrowsNPE%5B2%3A Docbook 4.4 file (*.xml)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[2: Docbook 4.4 file (*.xml)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[2: Docbook 4.4 file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullDatabaseThrowsNPE[2: Docbook 4.4 file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B2%3A Docbook 4.4 file (*.xml)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B2%3A Docbook 4.4 file (*.xml)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[2: Docbook 4.4 file (*.xml)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[3: DIN 1505 file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[3: DIN 1505 file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.046">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B3%3A DIN 1505 file (*.rtf)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B3%3A DIN 1505 file (*.rtf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[3: DIN 1505 file (*.rtf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[3: DIN 1505 file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullEntriesThrowsNPE[3: DIN 1505 file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B3%3A DIN 1505 file (*.rtf)%5D]/[test:testExportingNullEntriesThrowsNPE%5B3%3A DIN 1505 file (*.rtf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[3: DIN 1505 file (*.rtf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[3: DIN 1505 file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullDatabaseThrowsNPE[3: DIN 1505 file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B3%3A DIN 1505 file (*.rtf)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B3%3A DIN 1505 file (*.rtf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[3: DIN 1505 file (*.rtf)]
@@ -184,13 +184,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest
 display-name: testExportingNullEntriesThrowsNPE[4: Bib 0 file (*.rdf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[4: Bib 0 file (*.rdf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullDatabaseThrowsNPE[4: Bib 0 file (*.rdf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.108">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B4%3A Bib 0 file (*.rdf)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B4%3A Bib 0 file (*.rdf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[4: Bib 0 file (*.rdf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[5: HTML table file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[5: HTML table file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.117">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B5%3A HTML table file (*.html)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B5%3A HTML table file (*.html)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[5: HTML table file (*.html)]
@@ -214,13 +214,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[6: HTML list file (*.html)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[6: HTML list file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullEntriesThrowsNPE[6: HTML list file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B6%3A HTML list file (*.html)%5D]/[test:testExportingNullEntriesThrowsNPE%5B6%3A HTML list file (*.html)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[6: HTML list file (*.html)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[6: HTML list file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullDatabaseThrowsNPE[6: HTML list file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B6%3A HTML list file (*.html)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B6%3A HTML list file (*.html)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[6: HTML list file (*.html)]
@@ -232,7 +232,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[7: HTML table (with Abstract & BibTeX) file (*.html)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[7: HTML table (with Abstract &amp; BibTeX) file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullEntriesThrowsNPE[7: HTML table (with Abstract &amp; BibTeX) file (*.html)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.027">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B7%3A HTML table (with Abstract & BibTeX) file (*.html)%5D]/[test:testExportingNullEntriesThrowsNPE%5B7%3A HTML table (with Abstract & BibTeX) file (*.html)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[7: HTML table (with Abstract & BibTeX) file (*.html)]
@@ -244,19 +244,19 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest
 display-name: testExportingNullDatabaseThrowsNPE[7: HTML table (with Abstract & BibTeX) file (*.html)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[8: Harvard file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[8: Harvard file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B8%3A Harvard file (*.rtf)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B8%3A Harvard file (*.rtf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[8: Harvard file (*.rtf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[8: Harvard file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullEntriesThrowsNPE[8: Harvard file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B8%3A Harvard file (*.rtf)%5D]/[test:testExportingNullEntriesThrowsNPE%5B8%3A Harvard file (*.rtf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[8: Harvard file (*.rtf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[8: Harvard file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullDatabaseThrowsNPE[8: Harvard file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.024">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B8%3A Harvard file (*.rtf)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B8%3A Harvard file (*.rtf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[8: Harvard file (*.rtf)]
@@ -268,19 +268,19 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[9: ISO 690 file (*.rtf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[9: ISO 690 file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullEntriesThrowsNPE[9: ISO 690 file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B9%3A ISO 690 file (*.rtf)%5D]/[test:testExportingNullEntriesThrowsNPE%5B9%3A ISO 690 file (*.rtf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[9: ISO 690 file (*.rtf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[9: ISO 690 file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullDatabaseThrowsNPE[9: ISO 690 file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.026">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B9%3A ISO 690 file (*.rtf)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B9%3A ISO 690 file (*.rtf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[9: ISO 690 file (*.rtf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[10: ISO 690 file (*.txt)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[10: ISO 690 file (*.txt)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B10%3A ISO 690 file (*.txt)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B10%3A ISO 690 file (*.txt)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[10: ISO 690 file (*.txt)]
@@ -292,37 +292,37 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest
 display-name: testExportingNullEntriesThrowsNPE[10: ISO 690 file (*.txt)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[10: ISO 690 file (*.txt)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullDatabaseThrowsNPE[10: ISO 690 file (*.txt)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B10%3A ISO 690 file (*.txt)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B10%3A ISO 690 file (*.txt)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[10: ISO 690 file (*.txt)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[11: EndNote file (*.txt)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[11: EndNote file (*.txt)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B11%3A EndNote file (*.txt)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B11%3A EndNote file (*.txt)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[11: EndNote file (*.txt)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[11: EndNote file (*.txt)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullEntriesThrowsNPE[11: EndNote file (*.txt)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B11%3A EndNote file (*.txt)%5D]/[test:testExportingNullEntriesThrowsNPE%5B11%3A EndNote file (*.txt)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[11: EndNote file (*.txt)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[11: EndNote file (*.txt)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullDatabaseThrowsNPE[11: EndNote file (*.txt)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B11%3A EndNote file (*.txt)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B11%3A EndNote file (*.txt)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[11: EndNote file (*.txt)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[12: OpenOffice/LibreOffice file (*.csv)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[12: OpenOffice/LibreOffice file (*.csv)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.102">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B12%3A OpenOffice%2FLibreOffice file (*.csv)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B12%3A OpenOffice%2FLibreOffice file (*.csv)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[12: OpenOffice/LibreOffice file (*.csv)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[12: OpenOffice/LibreOffice file (*.csv)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullEntriesThrowsNPE[12: OpenOffice/LibreOffice file (*.csv)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B12%3A OpenOffice%2FLibreOffice file (*.csv)%5D]/[test:testExportingNullEntriesThrowsNPE%5B12%3A OpenOffice%2FLibreOffice file (*.csv)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[12: OpenOffice/LibreOffice file (*.csv)]
@@ -334,43 +334,43 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest
 display-name: testExportingNullDatabaseThrowsNPE[12: OpenOffice/LibreOffice file (*.csv)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[13: RIS file (*.ris)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[13: RIS file (*.ris)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.007">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B13%3A RIS file (*.ris)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B13%3A RIS file (*.ris)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[13: RIS file (*.ris)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[13: RIS file (*.ris)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullEntriesThrowsNPE[13: RIS file (*.ris)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B13%3A RIS file (*.ris)%5D]/[test:testExportingNullEntriesThrowsNPE%5B13%3A RIS file (*.ris)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[13: RIS file (*.ris)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[13: RIS file (*.ris)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullDatabaseThrowsNPE[13: RIS file (*.ris)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B13%3A RIS file (*.ris)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B13%3A RIS file (*.ris)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[13: RIS file (*.ris)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[14: MIS Quarterly file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[14: MIS Quarterly file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B14%3A MIS Quarterly file (*.rtf)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B14%3A MIS Quarterly file (*.rtf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[14: MIS Quarterly file (*.rtf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[14: MIS Quarterly file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullEntriesThrowsNPE[14: MIS Quarterly file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B14%3A MIS Quarterly file (*.rtf)%5D]/[test:testExportingNullEntriesThrowsNPE%5B14%3A MIS Quarterly file (*.rtf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[14: MIS Quarterly file (*.rtf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[14: MIS Quarterly file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullDatabaseThrowsNPE[14: MIS Quarterly file (*.rtf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.007">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B14%3A MIS Quarterly file (*.rtf)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B14%3A MIS Quarterly file (*.rtf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[14: MIS Quarterly file (*.rtf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[15: BibTeXML file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[15: BibTeXML file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B15%3A BibTeXML file (*.xml)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B15%3A BibTeXML file (*.xml)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[15: BibTeXML file (*.xml)]
@@ -394,43 +394,43 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[16: OpenOffice/LibreOffice Calc file (*.sxc)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[16: OpenOffice/LibreOffice Calc file (*.sxc)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullEntriesThrowsNPE[16: OpenOffice/LibreOffice Calc file (*.sxc)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B16%3A OpenOffice%2FLibreOffice Calc file (*.sxc)%5D]/[test:testExportingNullEntriesThrowsNPE%5B16%3A OpenOffice%2FLibreOffice Calc file (*.sxc)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[16: OpenOffice/LibreOffice Calc file (*.sxc)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[16: OpenOffice/LibreOffice Calc file (*.sxc)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullDatabaseThrowsNPE[16: OpenOffice/LibreOffice Calc file (*.sxc)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B16%3A OpenOffice%2FLibreOffice Calc file (*.sxc)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B16%3A OpenOffice%2FLibreOffice Calc file (*.sxc)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[16: OpenOffice/LibreOffice Calc file (*.sxc)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[17: OpenDocument spreadsheet file (*.ods)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[17: OpenDocument spreadsheet file (*.ods)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B17%3A OpenDocument spreadsheet file (*.ods)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B17%3A OpenDocument spreadsheet file (*.ods)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[17: OpenDocument spreadsheet file (*.ods)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[17: OpenDocument spreadsheet file (*.ods)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullEntriesThrowsNPE[17: OpenDocument spreadsheet file (*.ods)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B17%3A OpenDocument spreadsheet file (*.ods)%5D]/[test:testExportingNullEntriesThrowsNPE%5B17%3A OpenDocument spreadsheet file (*.ods)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[17: OpenDocument spreadsheet file (*.ods)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[17: OpenDocument spreadsheet file (*.ods)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullDatabaseThrowsNPE[17: OpenDocument spreadsheet file (*.ods)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B17%3A OpenDocument spreadsheet file (*.ods)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B17%3A OpenDocument spreadsheet file (*.ods)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[17: OpenDocument spreadsheet file (*.ods)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[18: MS Office 2007 bib file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[18: MS Office 2007 bib file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B18%3A MS Office 2007 bib file (*.xml)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B18%3A MS Office 2007 bib file (*.xml)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[18: MS Office 2007 bib file (*.xml)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[18: MS Office 2007 bib file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullEntriesThrowsNPE[18: MS Office 2007 bib file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B18%3A MS Office 2007 bib file (*.xml)%5D]/[test:testExportingNullEntriesThrowsNPE%5B18%3A MS Office 2007 bib file (*.xml)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[18: MS Office 2007 bib file (*.xml)]
@@ -442,13 +442,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest
 display-name: testExportingNullDatabaseThrowsNPE[18: MS Office 2007 bib file (*.xml)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[19: MODS file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[19: MODS file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B19%3A MODS file (*.xml)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B19%3A MODS file (*.xml)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[19: MODS file (*.xml)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[19: MODS file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullEntriesThrowsNPE[19: MODS file (*.xml)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B19%3A MODS file (*.xml)%5D]/[test:testExportingNullEntriesThrowsNPE%5B19%3A MODS file (*.xml)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[19: MODS file (*.xml)]
@@ -460,31 +460,31 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest
 display-name: testExportingNullDatabaseThrowsNPE[19: MODS file (*.xml)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[20: XMP file (*.xmp)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[20: XMP file (*.xmp)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B20%3A XMP file (*.xmp)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B20%3A XMP file (*.xmp)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[20: XMP file (*.xmp)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[20: XMP file (*.xmp)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingNullEntriesThrowsNPE[20: XMP file (*.xmp)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B20%3A XMP file (*.xmp)%5D]/[test:testExportingNullEntriesThrowsNPE%5B20%3A XMP file (*.xmp)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[20: XMP file (*.xmp)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullDatabaseThrowsNPE[20: XMP file (*.xmp)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullDatabaseThrowsNPE[20: XMP file (*.xmp)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B20%3A XMP file (*.xmp)%5D]/[test:testExportingNullDatabaseThrowsNPE%5B20%3A XMP file (*.xmp)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullDatabaseThrowsNPE[20: XMP file (*.xmp)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[21: XMP-annotated PDF (*.pdf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
+<testcase name="testExportingEmptyDatabaseYieldsEmptyFile[21: XMP-annotated PDF (*.pdf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B21%3A XMP-annotated PDF (*.pdf)%5D]/[test:testExportingEmptyDatabaseYieldsEmptyFile%5B21%3A XMP-annotated PDF (*.pdf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingEmptyDatabaseYieldsEmptyFile[21: XMP-annotated PDF (*.pdf)]
 ]]></system-out>
 </testcase>
-<testcase name="testExportingNullEntriesThrowsNPE[21: XMP-annotated PDF (*.pdf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0">
+<testcase name="testExportingNullEntriesThrowsNPE[21: XMP-annotated PDF (*.pdf)]" classname="org.jabref.logic.exporter.ExporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest]/[test:%5B21%3A XMP-annotated PDF (*.pdf)%5D]/[test:testExportingNullEntriesThrowsNPE%5B21%3A XMP-annotated PDF (*.pdf)%5D(org.jabref.logic.exporter.ExporterTest)]
 display-name: testExportingNullEntriesThrowsNPE[21: XMP-annotated PDF (*.pdf)]
@@ -496,25 +496,25 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.ExporterTest
 display-name: testExportingNullDatabaseThrowsNPE[21: XMP-annotated PDF (*.pdf)]
 ]]></system-out>
 </testcase>
-<testcase name="testPerformExportWithNoEntry" classname="org.jabref.logic.exporter.MsBibExportFormatTest" time="0.001">
+<testcase name="testPerformExportWithNoEntry" classname="org.jabref.logic.exporter.MsBibExportFormatTest" time="0.025">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.MsBibExportFormatTest]/[test:testPerformExportWithNoEntry(org.jabref.logic.exporter.MsBibExportFormatTest)]
 display-name: testPerformExportWithNoEntry
 ]]></system-out>
 </testcase>
-<testcase name="writeMutlipleEntriesInASingleFile" classname="org.jabref.logic.exporter.XmpExporterTest" time="0.009">
+<testcase name="writeMutlipleEntriesInASingleFile" classname="org.jabref.logic.exporter.XmpExporterTest" time="0.386">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.XmpExporterTest]/[test:writeMutlipleEntriesInASingleFile(org.jabref.logic.exporter.XmpExporterTest)]
 display-name: writeMutlipleEntriesInASingleFile
 ]]></system-out>
 </testcase>
-<testcase name="writeMultipleEntriesInDifferentFiles" classname="org.jabref.logic.exporter.XmpExporterTest" time="0.005">
+<testcase name="writeMultipleEntriesInDifferentFiles" classname="org.jabref.logic.exporter.XmpExporterTest" time="0.006">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.XmpExporterTest]/[test:writeMultipleEntriesInDifferentFiles(org.jabref.logic.exporter.XmpExporterTest)]
 display-name: writeMultipleEntriesInDifferentFiles
 ]]></system-out>
 </testcase>
-<testcase name="exportSingleEntry" classname="org.jabref.logic.exporter.XmpExporterTest" time="0.004">
+<testcase name="exportSingleEntry" classname="org.jabref.logic.exporter.XmpExporterTest" time="0.362">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.exporter.XmpExporterTest]/[test:exportSingleEntry(org.jabref.logic.exporter.XmpExporterTest)]
 display-name: exportSingleEntry
@@ -526,13 +526,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorker
 display-name: cleanupMonthChangesNumberToBibtex
 ]]></system-out>
 </testcase>
-<testcase name="upgradeExternalLinksMoveFromPdfToFile" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.002">
+<testcase name="upgradeExternalLinksMoveFromPdfToFile" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:upgradeExternalLinksMoveFromPdfToFile(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: upgradeExternalLinksMoveFromPdfToFile
 ]]></system-out>
 </testcase>
-<testcase name="cleanupDoiRemovesLeadingHttp" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.002">
+<testcase name="cleanupDoiRemovesLeadingHttp" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupDoiRemovesLeadingHttp(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupDoiRemovesLeadingHttp
@@ -544,13 +544,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorker
 display-name: convertToBiblatexMovesAddressToLocation
 ]]></system-out>
 </testcase>
-<testcase name="cleanupWithDisabledFieldFormatterChangesNothing" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0">
+<testcase name="cleanupWithDisabledFieldFormatterChangesNothing" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupWithDisabledFieldFormatterChangesNothing(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupWithDisabledFieldFormatterChangesNothing
 ]]></system-out>
 </testcase>
-<testcase name="cleanupFixFileLinksMovesSingleDescriptionToLink" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.001">
+<testcase name="cleanupFixFileLinksMovesSingleDescriptionToLink" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupFixFileLinksMovesSingleDescriptionToLink(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupFixFileLinksMovesSingleDescriptionToLink
@@ -562,7 +562,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorker
 display-name: cleanupLatexMergesTwoLatexMathEnvironments
 ]]></system-out>
 </testcase>
-<testcase name="cleanupWithNullPresetThrowsException" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.001">
+<testcase name="cleanupWithNullPresetThrowsException" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupWithNullPresetThrowsException(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupWithNullPresetThrowsException
@@ -574,7 +574,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorker
 display-name: convertToBiblatexMovesJournalToJournalTitle
 ]]></system-out>
 </testcase>
-<testcase name="cleanupRenamePdfRenamesRelativeFile" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.005">
+<testcase name="cleanupRenamePdfRenamesRelativeFile" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.009">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupRenamePdfRenamesRelativeFile(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupRenamePdfRenamesRelativeFile
@@ -586,19 +586,19 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorker
 display-name: cleanupDoiReturnsChanges
 ]]></system-out>
 </testcase>
-<testcase name="cleanupDatesConvertsToCorrectFormat" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.001">
+<testcase name="cleanupDatesConvertsToCorrectFormat" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupDatesConvertsToCorrectFormat(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupDatesConvertsToCorrectFormat
 ]]></system-out>
 </testcase>
-<testcase name="cleanupRelativePathsConvertAbsoluteToRelativePath" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.001">
+<testcase name="cleanupRelativePathsConvertAbsoluteToRelativePath" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupRelativePathsConvertAbsoluteToRelativePath(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupRelativePathsConvertAbsoluteToRelativePath
 ]]></system-out>
 </testcase>
-<testcase name="cleanupNullEntryThrowsException" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0">
+<testcase name="cleanupNullEntryThrowsException" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupNullEntryThrowsException(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupNullEntryThrowsException
@@ -616,13 +616,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorker
 display-name: cleanupDoiReturnsChangeWhenDoiInURLField
 ]]></system-out>
 </testcase>
-<testcase name="cleanupMoveFilesMovesFileFromSubfolder" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.003">
+<testcase name="cleanupMoveFilesMovesFileFromSubfolder" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupMoveFilesMovesFileFromSubfolder(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupMoveFilesMovesFileFromSubfolder
 ]]></system-out>
 </testcase>
-<testcase name="cleanupUnitsConvertsOneAmpereToLatex" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.003">
+<testcase name="cleanupUnitsConvertsOneAmpereToLatex" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupUnitsConvertsOneAmpereToLatex(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupUnitsConvertsOneAmpereToLatex
@@ -634,25 +634,25 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorker
 display-name: upgradeExternalLinksMoveFromPsToFile
 ]]></system-out>
 </testcase>
-<testcase name="cleanupDoesNothingByDefault" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.001">
+<testcase name="cleanupDoesNothingByDefault" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupDoesNothingByDefault(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupDoesNothingByDefault
 ]]></system-out>
 </testcase>
-<testcase name="cleanupCasesAddsBracketAroundAluminiumGalliumArsenid" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.004">
+<testcase name="cleanupCasesAddsBracketAroundAluminiumGalliumArsenid" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.986">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupCasesAddsBracketAroundAluminiumGalliumArsenid(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupCasesAddsBracketAroundAluminiumGalliumArsenid
 ]]></system-out>
 </testcase>
-<testcase name="cleanupDoiFindsDoiInURLFieldAndMoveItToDOIField" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.001">
+<testcase name="cleanupDoiFindsDoiInURLFieldAndMoveItToDOIField" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupDoiFindsDoiInURLFieldAndMoveItToDOIField(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupDoiFindsDoiInURLFieldAndMoveItToDOIField
 ]]></system-out>
 </testcase>
-<testcase name="cleanupPageNumbersConvertsSingleDashToDouble" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.003">
+<testcase name="cleanupPageNumbersConvertsSingleDashToDouble" classname="org.jabref.logic.cleanup.CleanupWorkerTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.CleanupWorkerTest]/[test:cleanupPageNumbersConvertsSingleDashToDouble(org.jabref.logic.cleanup.CleanupWorkerTest)]
 display-name: cleanupPageNumbersConvertsSingleDashToDouble
@@ -694,13 +694,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.RenamePdfClea
 display-name: cleanupSingleField
 ]]></system-out>
 </testcase>
-<testcase name="movesFileFromSubfolderMultiple" classname="org.jabref.logic.cleanup.MoveFilesCleanupTest" time="0.004">
+<testcase name="movesFileFromSubfolderMultiple" classname="org.jabref.logic.cleanup.MoveFilesCleanupTest" time="0.003">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.MoveFilesCleanupTest]/[test:movesFileFromSubfolderMultiple(org.jabref.logic.cleanup.MoveFilesCleanupTest)]
 display-name: movesFileFromSubfolderMultiple
 ]]></system-out>
 </testcase>
-<testcase name="movesFileFromSubfolderWithSubdirPattern" classname="org.jabref.logic.cleanup.MoveFilesCleanupTest" time="0.002">
+<testcase name="movesFileFromSubfolderWithSubdirPattern" classname="org.jabref.logic.cleanup.MoveFilesCleanupTest" time="0.028">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.MoveFilesCleanupTest]/[test:movesFileFromSubfolderWithSubdirPattern(org.jabref.logic.cleanup.MoveFilesCleanupTest)]
 display-name: movesFileFromSubfolderWithSubdirPattern
@@ -712,7 +712,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.MoveFilesClea
 display-name: movesFileFromSubfolderWithFileDirPattern
 ]]></system-out>
 </testcase>
-<testcase name="movesFileFromSubfolderWithDeepSubdirPattern" classname="org.jabref.logic.cleanup.MoveFilesCleanupTest" time="0.003">
+<testcase name="movesFileFromSubfolderWithDeepSubdirPattern" classname="org.jabref.logic.cleanup.MoveFilesCleanupTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.cleanup.MoveFilesCleanupTest]/[test:movesFileFromSubfolderWithDeepSubdirPattern(org.jabref.logic.cleanup.MoveFilesCleanupTest)]
 display-name: movesFileFromSubfolderWithDeepSubdirPattern
@@ -754,79 +754,79 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.layout.format.AuthorA
 display-name: testFormat[4: format("John von Neumann and John Smith and Peter Black Brown")="John von Neumann; John Smith; Peter Black Brown"]
 ]]></system-out>
 </testcase>
-<testcase name="testWriteXmp" classname="org.jabref.logic.xmp.XmpUtilWriterTest" time="0.019">
+<testcase name="testWriteXmp" classname="org.jabref.logic.xmp.XmpUtilWriterTest" time="0.642">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.xmp.XmpUtilWriterTest]/[test:testWriteXmp(org.jabref.logic.xmp.XmpUtilWriterTest)]
 display-name: testWriteXmp
 ]]></system-out>
 </testcase>
-<testcase name="testWriteMultipleBibEntries" classname="org.jabref.logic.xmp.XmpUtilWriterTest" time="0.016">
+<testcase name="testWriteMultipleBibEntries" classname="org.jabref.logic.xmp.XmpUtilWriterTest" time="0.383">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.xmp.XmpUtilWriterTest]/[test:testWriteMultipleBibEntries(org.jabref.logic.xmp.XmpUtilWriterTest)]
 display-name: testWriteMultipleBibEntries
 ]]></system-out>
 </testcase>
-<testcase name="testReadEmtpyMetadata" classname="org.jabref.logic.xmp.XmpUtilReaderTest" time="0.013">
+<testcase name="testReadEmtpyMetadata" classname="org.jabref.logic.xmp.XmpUtilReaderTest" time="0.794">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.xmp.XmpUtilReaderTest]/[test:testReadEmtpyMetadata(org.jabref.logic.xmp.XmpUtilReaderTest)]
 display-name: testReadEmtpyMetadata
 ]]></system-out>
 </testcase>
-<testcase name="testReadArticleDublinCoreReadRawXmp" classname="org.jabref.logic.xmp.XmpUtilReaderTest" time="0.032">
+<testcase name="testReadArticleDublinCoreReadRawXmp" classname="org.jabref.logic.xmp.XmpUtilReaderTest" time="0.052">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.xmp.XmpUtilReaderTest]/[test:testReadArticleDublinCoreReadRawXmp(org.jabref.logic.xmp.XmpUtilReaderTest)]
 display-name: testReadArticleDublinCoreReadRawXmp
 ]]></system-out>
 </testcase>
-<testcase name="testReadArticleDublinCoreReadXmp" classname="org.jabref.logic.xmp.XmpUtilReaderTest" time="0.011">
+<testcase name="testReadArticleDublinCoreReadXmp" classname="org.jabref.logic.xmp.XmpUtilReaderTest" time="0.01">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.xmp.XmpUtilReaderTest]/[test:testReadArticleDublinCoreReadXmp(org.jabref.logic.xmp.XmpUtilReaderTest)]
 display-name: testReadArticleDublinCoreReadXmp
 ]]></system-out>
 </testcase>
-<testcase name="testReadPDMetadata" classname="org.jabref.logic.xmp.XmpUtilReaderTest" time="0.002">
+<testcase name="testReadPDMetadata" classname="org.jabref.logic.xmp.XmpUtilReaderTest" time="0.093">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.xmp.XmpUtilReaderTest]/[test:testReadPDMetadata(org.jabref.logic.xmp.XmpUtilReaderTest)]
 display-name: testReadPDMetadata
 ]]></system-out>
 </testcase>
-<testcase name="handlePermanentRedirections" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="1.103">
+<testcase name="handlePermanentRedirections" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="2.277">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.net.MimeTypeDetectorTest]/[test:handlePermanentRedirections(org.jabref.logic.net.MimeTypeDetectorTest)]
 display-name: handlePermanentRedirections
 ]]></system-out>
 </testcase>
-<testcase name="beAbleToUseHeadRequest" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.052">
+<testcase name="beAbleToUseHeadRequest" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.043">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.net.MimeTypeDetectorTest]/[test:beAbleToUseHeadRequest(org.jabref.logic.net.MimeTypeDetectorTest)]
 display-name: beAbleToUseHeadRequest
 ]]></system-out>
 </testcase>
-<testcase name="beTrueForLocalPdfUri" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.016">
+<testcase name="beTrueForLocalPdfUri" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="1.018">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.net.MimeTypeDetectorTest]/[test:beTrueForLocalPdfUri(org.jabref.logic.net.MimeTypeDetectorTest)]
 display-name: beTrueForLocalPdfUri
 ]]></system-out>
 </testcase>
-<testcase name="beTrueForPdfMimeType" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.41">
+<testcase name="beTrueForPdfMimeType" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.417">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.net.MimeTypeDetectorTest]/[test:beTrueForPdfMimeType(org.jabref.logic.net.MimeTypeDetectorTest)]
 display-name: beTrueForPdfMimeType
 ]]></system-out>
 </testcase>
-<testcase name="beFalseForUnreachableUrl" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.061">
+<testcase name="beFalseForUnreachableUrl" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.05">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.net.MimeTypeDetectorTest]/[test:beFalseForUnreachableUrl(org.jabref.logic.net.MimeTypeDetectorTest)]
 display-name: beFalseForUnreachableUrl
 ]]></system-out>
 </testcase>
-<testcase name="beTrueForPDFMimeTypeVariations" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.035">
+<testcase name="beTrueForPDFMimeTypeVariations" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.038">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.net.MimeTypeDetectorTest]/[test:beTrueForPDFMimeTypeVariations(org.jabref.logic.net.MimeTypeDetectorTest)]
 display-name: beTrueForPDFMimeTypeVariations
 ]]></system-out>
 </testcase>
-<testcase name="beAbleToUseGetRequest" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.081">
+<testcase name="beAbleToUseGetRequest" classname="org.jabref.logic.net.MimeTypeDetectorTest" time="0.136">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.net.MimeTypeDetectorTest]/[test:beAbleToUseGetRequest(org.jabref.logic.net.MimeTypeDetectorTest)]
 display-name: beAbleToUseGetRequest
@@ -838,13 +838,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.l10n.LocalizationKeyT
 display-name: underscoreIsPreserved
 ]]></system-out>
 </testcase>
-<testcase name="testConversionToPropertiesKey" classname="org.jabref.logic.l10n.LocalizationKeyTest" time="0">
+<testcase name="testConversionToPropertiesKey" classname="org.jabref.logic.l10n.LocalizationKeyTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.l10n.LocalizationKeyTest]/[test:testConversionToPropertiesKey(org.jabref.logic.l10n.LocalizationKeyTest)]
 display-name: testConversionToPropertiesKey
 ]]></system-out>
 </testcase>
-<testcase name="findAssociatedFilesIgnoresFilesStartingWithKeyButContinueWithText" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.003">
+<testcase name="findAssociatedFilesIgnoresFilesStartingWithKeyButContinueWithText" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.CiteKeyBasedFileFinderTest]/[test:findAssociatedFilesIgnoresFilesStartingWithKeyButContinueWithText(org.jabref.logic.util.io.CiteKeyBasedFileFinderTest)]
 display-name: findAssociatedFilesIgnoresFilesStartingWithKeyButContinueWithText
@@ -862,7 +862,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.CiteKeyBasedF
 display-name: findAssociatedFilesInSubDirectories
 ]]></system-out>
 </testcase>
-<testcase name="findAssociatedFilesFindsFilesStartingWithKey" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.002">
+<testcase name="findAssociatedFilesFindsFilesStartingWithKey" classname="org.jabref.logic.util.io.CiteKeyBasedFileFinderTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.CiteKeyBasedFileFinderTest]/[test:findAssociatedFilesFindsFilesStartingWithKey(org.jabref.logic.util.io.CiteKeyBasedFileFinderTest)]
 display-name: findAssociatedFilesFindsFilesStartingWithKey
@@ -910,7 +910,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]
 display-name: getFileExtensionTrimsAndReturnsInLowercase
 ]]></system-out>
 </testcase>
-<testcase name="testGetFileExtensionMultipleDotsFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
+<testcase name="testGetFileExtensionMultipleDotsFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testGetFileExtensionMultipleDotsFile(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testGetFileExtensionMultipleDotsFile
@@ -922,7 +922,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]
 display-name: testGetFileExtensionNoExtension2File
 ]]></system-out>
 </testcase>
-<testcase name="testCopyFileFromExistSourcePathToExistDestinationPathWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="1.651">
+<testcase name="testCopyFileFromExistSourcePathToExistDestinationPathWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.012">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testCopyFileFromExistSourcePathToExistDestinationPathWithOverrideExistFile(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testCopyFileFromExistSourcePathToExistDestinationPathWithOverrideExistFile
@@ -934,7 +934,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]
 display-name: testRenameFileWithFromFileExistAndOtherToFileExist
 ]]></system-out>
 </testcase>
-<testcase name="testGetLinkedFileNameNoPatternWithLayout" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
+<testcase name="testGetLinkedFileNameNoPatternWithLayout" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testGetLinkedFileNameNoPatternWithLayout(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testGetLinkedFileNameNoPatternWithLayout
@@ -946,13 +946,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]
 display-name: testCopyFileFromEmptySourcePathToExistDestinationPathWithOverrideExistFile
 ]]></system-out>
 </testcase>
-<testcase name="validFilenameShouldNotAlterValidFilename" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
+<testcase name="validFilenameShouldNotAlterValidFilename" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:validFilenameShouldNotAlterValidFilename(org.jabref.logic.util.io.FileUtilTest)]
 display-name: validFilenameShouldNotAlterValidFilename
 ]]></system-out>
 </testcase>
-<testcase name="testRenameFileWithFromFileExistAndToFileIsNull" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
+<testcase name="testRenameFileWithFromFileExistAndToFileIsNull" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testRenameFileWithFromFileExistAndToFileIsNull(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testRenameFileWithFromFileExistAndToFileIsNull
@@ -964,31 +964,31 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]
 display-name: testGetLinkedFileNameByYearAuthorFirstpage
 ]]></system-out>
 </testcase>
-<testcase name="testGetDefaultFileNameNoPatternNoBibTeXKey" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
+<testcase name="testGetDefaultFileNameNoPatternNoBibTeXKey" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testGetDefaultFileNameNoPatternNoBibTeXKey(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testGetDefaultFileNameNoPatternNoBibTeXKey
 ]]></system-out>
 </testcase>
-<testcase name="testGetLinkedFileNameGetKeyIfEmptyField" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
+<testcase name="testGetLinkedFileNameGetKeyIfEmptyField" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testGetLinkedFileNameGetKeyIfEmptyField(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testGetLinkedFileNameGetKeyIfEmptyField
 ]]></system-out>
 </testcase>
-<testcase name="testRenameFileWithFromFileExistAndToFileExist" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
+<testcase name="testRenameFileWithFromFileExistAndToFileExist" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testRenameFileWithFromFileExistAndToFileExist(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testRenameFileWithFromFileExistAndToFileExist
 ]]></system-out>
 </testcase>
-<testcase name="invalidFilenameWithoutExtension" classname="org.jabref.logic.util.io.FileUtilTest" time="0.003">
+<testcase name="invalidFilenameWithoutExtension" classname="org.jabref.logic.util.io.FileUtilTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:invalidFilenameWithoutExtension(org.jabref.logic.util.io.FileUtilTest)]
 display-name: invalidFilenameWithoutExtension
 ]]></system-out>
 </testcase>
-<testcase name="getFileExtensionWithMultipleDotsString" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
+<testcase name="getFileExtensionWithMultipleDotsString" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:getFileExtensionWithMultipleDotsString(org.jabref.logic.util.io.FileUtilTest)]
 display-name: getFileExtensionWithMultipleDotsString
@@ -1012,25 +1012,25 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]
 display-name: getFileExtensionWithSimpleString
 ]]></system-out>
 </testcase>
-<testcase name="testGetLinkedFileNameDefaultWithLowercaseTitle" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
+<testcase name="testGetLinkedFileNameDefaultWithLowercaseTitle" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testGetLinkedFileNameDefaultWithLowercaseTitle(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testGetLinkedFileNameDefaultWithLowercaseTitle
 ]]></system-out>
 </testcase>
-<testcase name="extensionBakAddedCorrectlyToAFileContainedInTmpDirectory" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
+<testcase name="extensionBakAddedCorrectlyToAFileContainedInTmpDirectory" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:extensionBakAddedCorrectlyToAFileContainedInTmpDirectory(org.jabref.logic.util.io.FileUtilTest)]
 display-name: extensionBakAddedCorrectlyToAFileContainedInTmpDirectory
 ]]></system-out>
 </testcase>
-<testcase name="testGetFileExtensionNoExtensionFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
+<testcase name="testGetFileExtensionNoExtensionFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testGetFileExtensionNoExtensionFile(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testGetFileExtensionNoExtensionFile
 ]]></system-out>
 </testcase>
-<testcase name="testCopyFileFromExistSourcePathToExistDestinationPathWithoutOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
+<testcase name="testCopyFileFromExistSourcePathToExistDestinationPathWithoutOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testCopyFileFromExistSourcePathToExistDestinationPathWithoutOverrideExistFile(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testCopyFileFromExistSourcePathToExistDestinationPathWithoutOverrideExistFile
@@ -1054,7 +1054,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]
 display-name: testRenameFileWithFromFileNotExistAndToFileNotExist
 ]]></system-out>
 </testcase>
-<testcase name="validFilenameWithoutExtension" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
+<testcase name="validFilenameWithoutExtension" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:validFilenameWithoutExtension(org.jabref.logic.util.io.FileUtilTest)]
 display-name: validFilenameWithoutExtension
@@ -1120,13 +1120,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]
 display-name: testGetLinkedFileNameDefaultWithLayout
 ]]></system-out>
 </testcase>
-<testcase name="testCopyFileFromExistSourcePathToOtherExistDestinationPathWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.428">
+<testcase name="testCopyFileFromExistSourcePathToOtherExistDestinationPathWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testCopyFileFromExistSourcePathToOtherExistDestinationPathWithOverrideExistFile(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testCopyFileFromExistSourcePathToOtherExistDestinationPathWithOverrideExistFile
 ]]></system-out>
 </testcase>
-<testcase name="testCopyFileFromEmptySourcePathToEmptyDestinationPathWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
+<testcase name="testCopyFileFromEmptySourcePathToEmptyDestinationPathWithOverrideExistFile" classname="org.jabref.logic.util.io.FileUtilTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testCopyFileFromEmptySourcePathToEmptyDestinationPathWithOverrideExistFile(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testCopyFileFromEmptySourcePathToEmptyDestinationPathWithOverrideExistFile
@@ -1144,13 +1144,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]
 display-name: validFilenameShouldBeMaximum255Chars
 ]]></system-out>
 </testcase>
-<testcase name="testGetLinkedFileNameNoPattern" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
+<testcase name="testGetLinkedFileNameNoPattern" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testGetLinkedFileNameNoPattern(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testGetLinkedFileNameNoPattern
 ]]></system-out>
 </testcase>
-<testcase name="testGetLinkedDirNameDefaultFullTitle" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
+<testcase name="testGetLinkedDirNameDefaultFullTitle" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testGetLinkedDirNameDefaultFullTitle(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testGetLinkedDirNameDefaultFullTitle
@@ -1162,13 +1162,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]
 display-name: testCopyFileFromExistSourcePathToOtherExistDestinationPathWithoutOverrideExistFile
 ]]></system-out>
 </testcase>
-<testcase name="testGetLinkedFileNameGetDefaultIfEmptyFieldNoKeyWithLayout" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
+<testcase name="testGetLinkedFileNameGetDefaultIfEmptyFieldNoKeyWithLayout" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testGetLinkedFileNameGetDefaultIfEmptyFieldNoKeyWithLayout(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testGetLinkedFileNameGetDefaultIfEmptyFieldNoKeyWithLayout
 ]]></system-out>
 </testcase>
-<testcase name="testGetDefaultFileNameNoPatternNoBibTeXKeyWithLayout" classname="org.jabref.logic.util.io.FileUtilTest" time="0">
+<testcase name="testGetDefaultFileNameNoPatternNoBibTeXKeyWithLayout" classname="org.jabref.logic.util.io.FileUtilTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]/[test:testGetDefaultFileNameNoPatternNoBibTeXKeyWithLayout(org.jabref.logic.util.io.FileUtilTest)]
 display-name: testGetDefaultFileNameNoPatternNoBibTeXKeyWithLayout
@@ -1186,7 +1186,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.util.io.FileUtilTest]
 display-name: getFileExtensionWithNoDotReturnsEmptyExtension
 ]]></system-out>
 </testcase>
-<testcase name="testCitationEntryInitalPageInfo" classname="org.jabref.logic.openoffice.CitationEntryTest" time="0.001">
+<testcase name="testCitationEntryInitalPageInfo" classname="org.jabref.logic.openoffice.CitationEntryTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.openoffice.CitationEntryTest]/[test:testCitationEntryInitalPageInfo(org.jabref.logic.openoffice.CitationEntryTest)]
 display-name: testCitationEntryInitalPageInfo
@@ -1234,13 +1234,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.openoffice.CitationEn
 display-name: testCitationEntryInitalPageInfoRemoved
 ]]></system-out>
 </testcase>
-<testcase name="testImportUnknownFormat[0: ris]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.037">
+<testcase name="testImportUnknownFormat[0: ris]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.106">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B0%3A ris%5D]/[test:testImportUnknownFormat%5B0%3A ris%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportUnknownFormat[0: ris]
 ]]></system-out>
 </testcase>
-<testcase name="testImportFormatFromFile[0: ris]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002">
+<testcase name="testImportFormatFromFile[0: ris]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B0%3A ris%5D]/[test:testImportFormatFromFile%5B0%3A ris%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportFormatFromFile[0: ris]
@@ -1252,25 +1252,25 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormat
 display-name: testImportUnknownFormatFromString[0: ris]
 ]]></system-out>
 </testcase>
-<testcase name="testImportUnknownFormat[1: isi]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.004">
+<testcase name="testImportUnknownFormat[1: isi]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.022">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B1%3A isi%5D]/[test:testImportUnknownFormat%5B1%3A isi%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportUnknownFormat[1: isi]
 ]]></system-out>
 </testcase>
-<testcase name="testImportFormatFromFile[1: isi]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.001">
+<testcase name="testImportFormatFromFile[1: isi]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B1%3A isi%5D]/[test:testImportFormatFromFile%5B1%3A isi%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportFormatFromFile[1: isi]
 ]]></system-out>
 </testcase>
-<testcase name="testImportUnknownFormatFromString[1: isi]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.003">
+<testcase name="testImportUnknownFormatFromString[1: isi]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B1%3A isi%5D]/[test:testImportUnknownFormatFromString%5B1%3A isi%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportUnknownFormatFromString[1: isi]
 ]]></system-out>
 </testcase>
-<testcase name="testImportUnknownFormat[2: silverplatter]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.004">
+<testcase name="testImportUnknownFormat[2: silverplatter]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.069">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B2%3A silverplatter%5D]/[test:testImportUnknownFormat%5B2%3A silverplatter%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportUnknownFormat[2: silverplatter]
@@ -1294,19 +1294,19 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormat
 display-name: testImportUnknownFormat[3: repecnep]
 ]]></system-out>
 </testcase>
-<testcase name="testImportFormatFromFile[3: repecnep]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.001">
+<testcase name="testImportFormatFromFile[3: repecnep]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B3%3A repecnep%5D]/[test:testImportFormatFromFile%5B3%3A repecnep%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportFormatFromFile[3: repecnep]
 ]]></system-out>
 </testcase>
-<testcase name="testImportUnknownFormatFromString[3: repecnep]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.004">
+<testcase name="testImportUnknownFormatFromString[3: repecnep]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.003">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B3%3A repecnep%5D]/[test:testImportUnknownFormatFromString%5B3%3A repecnep%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportUnknownFormatFromString[3: repecnep]
 ]]></system-out>
 </testcase>
-<testcase name="testImportUnknownFormat[4: ovid]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.006">
+<testcase name="testImportUnknownFormat[4: ovid]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.005">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B4%3A ovid%5D]/[test:testImportUnknownFormat%5B4%3A ovid%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportUnknownFormat[4: ovid]
@@ -1324,25 +1324,25 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormat
 display-name: testImportUnknownFormatFromString[4: ovid]
 ]]></system-out>
 </testcase>
-<testcase name="testImportUnknownFormat[5: refer]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.005">
+<testcase name="testImportUnknownFormat[5: refer]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.068">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B5%3A refer%5D]/[test:testImportUnknownFormat%5B5%3A refer%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportUnknownFormat[5: refer]
 ]]></system-out>
 </testcase>
-<testcase name="testImportFormatFromFile[5: refer]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002">
+<testcase name="testImportFormatFromFile[5: refer]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B5%3A refer%5D]/[test:testImportFormatFromFile%5B5%3A refer%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportFormatFromFile[5: refer]
 ]]></system-out>
 </testcase>
-<testcase name="testImportUnknownFormatFromString[5: refer]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002">
+<testcase name="testImportUnknownFormatFromString[5: refer]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B5%3A refer%5D]/[test:testImportUnknownFormatFromString%5B5%3A refer%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportUnknownFormatFromString[5: refer]
 ]]></system-out>
 </testcase>
-<testcase name="testImportUnknownFormat[6: msbib]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.025">
+<testcase name="testImportUnknownFormat[6: msbib]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.111">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B6%3A msbib%5D]/[test:testImportUnknownFormat%5B6%3A msbib%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportUnknownFormat[6: msbib]
@@ -1354,19 +1354,19 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormat
 display-name: testImportFormatFromFile[6: msbib]
 ]]></system-out>
 </testcase>
-<testcase name="testImportUnknownFormatFromString[6: msbib]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.006">
+<testcase name="testImportUnknownFormatFromString[6: msbib]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B6%3A msbib%5D]/[test:testImportUnknownFormatFromString%5B6%3A msbib%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportUnknownFormatFromString[6: msbib]
 ]]></system-out>
 </testcase>
-<testcase name="testImportUnknownFormat[7: bibtex]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.001">
+<testcase name="testImportUnknownFormat[7: bibtex]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.052">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B7%3A bibtex%5D]/[test:testImportUnknownFormat%5B7%3A bibtex%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportUnknownFormat[7: bibtex]
 ]]></system-out>
 </testcase>
-<testcase name="testImportFormatFromFile[7: bibtex]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0.001">
+<testcase name="testImportFormatFromFile[7: bibtex]" classname="org.jabref.logic.importer.ImportFormatReaderIntegrationTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImportFormatReaderIntegrationTest]/[test:%5B7%3A bibtex%5D]/[test:testImportFormatFromFile%5B7%3A bibtex%5D(org.jabref.logic.importer.ImportFormatReaderIntegrationTest)]
 display-name: testImportFormatFromFile[7: bibtex]
@@ -1396,7 +1396,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getFileTypeDoesNotReturnNull[0: Biblioscape]
 ]]></system-out>
 </testcase>
-<testcase name="importDatabaseWithNullForBufferedReaderThrowsException[0: Biblioscape]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
+<testcase name="importDatabaseWithNullForBufferedReaderThrowsException[0: Biblioscape]" classname="org.jabref.logic.importer.ImporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B0%3A Biblioscape%5D]/[test:importDatabaseWithNullForBufferedReaderThrowsException%5B0%3A Biblioscape%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: importDatabaseWithNullForBufferedReaderThrowsException[0: Biblioscape]
@@ -1432,7 +1432,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getIdDoesNotContainWhitespace[0: Biblioscape]
 ]]></system-out>
 </testcase>
-<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[0: Biblioscape]" classname="org.jabref.logic.importer.ImporterTest" time="0.025">
+<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[0: Biblioscape]" classname="org.jabref.logic.importer.ImporterTest" time="0.067">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B0%3A Biblioscape%5D]/[test:getIdStripsSpecialCharactersAndConvertsToLowercase%5B0%3A Biblioscape%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getIdStripsSpecialCharactersAndConvertsToLowercase[0: Biblioscape]
@@ -1492,7 +1492,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getIdDoesNotContainWhitespace[1: BibTeX]
 ]]></system-out>
 </testcase>
-<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[1: BibTeX]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[1: BibTeX]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B1%3A BibTeX%5D]/[test:getIdStripsSpecialCharactersAndConvertsToLowercase%5B1%3A BibTeX%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getIdStripsSpecialCharactersAndConvertsToLowercase[1: BibTeX]
@@ -1528,7 +1528,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getIdDoesNotReturnNull[2: BibTeXML]
 ]]></system-out>
 </testcase>
-<testcase name="isRecognizedFormatWithNullForBufferedReaderThrowsException[2: BibTeXML]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
+<testcase name="isRecognizedFormatWithNullForBufferedReaderThrowsException[2: BibTeXML]" classname="org.jabref.logic.importer.ImporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B2%3A BibTeXML%5D]/[test:isRecognizedFormatWithNullForBufferedReaderThrowsException%5B2%3A BibTeXML%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: isRecognizedFormatWithNullForBufferedReaderThrowsException[2: BibTeXML]
@@ -1588,7 +1588,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getIdDoesNotReturnNull[3: Copac]
 ]]></system-out>
 </testcase>
-<testcase name="isRecognizedFormatWithNullForBufferedReaderThrowsException[3: Copac]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="isRecognizedFormatWithNullForBufferedReaderThrowsException[3: Copac]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B3%3A Copac%5D]/[test:isRecognizedFormatWithNullForBufferedReaderThrowsException%5B3%3A Copac%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: isRecognizedFormatWithNullForBufferedReaderThrowsException[3: Copac]
@@ -1666,7 +1666,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: importDatabaseWithNullForStringThrowsException[4: Refer/Endnote]
 ]]></system-out>
 </testcase>
-<testcase name="getIdDoesNotContainWhitespace[4: Refer/Endnote]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="getIdDoesNotContainWhitespace[4: Refer/Endnote]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B4%3A Refer%2FEndnote%5D]/[test:getIdDoesNotContainWhitespace%5B4%3A Refer%2FEndnote%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getIdDoesNotContainWhitespace[4: Refer/Endnote]
@@ -1714,13 +1714,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: isRecognizedFormatWithNullForBufferedReaderThrowsException[5: text citations]
 ]]></system-out>
 </testcase>
-<testcase name="getDescriptionDoesNotReturnNull[5: text citations]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="getDescriptionDoesNotReturnNull[5: text citations]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B5%3A text citations%5D]/[test:getDescriptionDoesNotReturnNull%5B5%3A text citations%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getDescriptionDoesNotReturnNull[5: text citations]
 ]]></system-out>
 </testcase>
-<testcase name="importDatabaseWithNullForStringThrowsException[5: text citations]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
+<testcase name="importDatabaseWithNullForStringThrowsException[5: text citations]" classname="org.jabref.logic.importer.ImporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B5%3A text citations%5D]/[test:importDatabaseWithNullForStringThrowsException%5B5%3A text citations%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: importDatabaseWithNullForStringThrowsException[5: text citations]
@@ -1756,7 +1756,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getFileTypeDoesNotReturnNull[6: INSPEC]
 ]]></system-out>
 </testcase>
-<testcase name="importDatabaseWithNullForBufferedReaderThrowsException[6: INSPEC]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="importDatabaseWithNullForBufferedReaderThrowsException[6: INSPEC]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B6%3A INSPEC%5D]/[test:importDatabaseWithNullForBufferedReaderThrowsException%5B6%3A INSPEC%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: importDatabaseWithNullForBufferedReaderThrowsException[6: INSPEC]
@@ -1792,7 +1792,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getIdDoesNotContainWhitespace[6: INSPEC]
 ]]></system-out>
 </testcase>
-<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[6: INSPEC]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
+<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[6: INSPEC]" classname="org.jabref.logic.importer.ImporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B6%3A INSPEC%5D]/[test:getIdStripsSpecialCharactersAndConvertsToLowercase%5B6%3A INSPEC%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getIdStripsSpecialCharactersAndConvertsToLowercase[6: INSPEC]
@@ -1870,7 +1870,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getFormatterNameDoesNotReturnNull[8: Medline/PubMed]
 ]]></system-out>
 </testcase>
-<testcase name="getFileTypeDoesNotReturnNull[8: Medline/PubMed]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
+<testcase name="getFileTypeDoesNotReturnNull[8: Medline/PubMed]" classname="org.jabref.logic.importer.ImporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B8%3A Medline%2FPubMed%5D]/[test:getFileTypeDoesNotReturnNull%5B8%3A Medline%2FPubMed%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getFileTypeDoesNotReturnNull[8: Medline/PubMed]
@@ -1882,7 +1882,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: importDatabaseWithNullForBufferedReaderThrowsException[8: Medline/PubMed]
 ]]></system-out>
 </testcase>
-<testcase name="getIdDoesNotReturnNull[8: Medline/PubMed]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="getIdDoesNotReturnNull[8: Medline/PubMed]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B8%3A Medline%2FPubMed%5D]/[test:getIdDoesNotReturnNull%5B8%3A Medline%2FPubMed%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getIdDoesNotReturnNull[8: Medline/PubMed]
@@ -2044,7 +2044,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: isRecognizedFormatWithNullForStringThrowsException[11: MSBib]
 ]]></system-out>
 </testcase>
-<testcase name="getFormatterNameDoesNotReturnNull[11: MSBib]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="getFormatterNameDoesNotReturnNull[11: MSBib]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B11%3A MSBib%5D]/[test:getFormatterNameDoesNotReturnNull%5B11%3A MSBib%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getFormatterNameDoesNotReturnNull[11: MSBib]
@@ -2092,7 +2092,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getIdDoesNotContainWhitespace[11: MSBib]
 ]]></system-out>
 </testcase>
-<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[11: MSBib]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[11: MSBib]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B11%3A MSBib%5D]/[test:getIdStripsSpecialCharactersAndConvertsToLowercase%5B11%3A MSBib%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getIdStripsSpecialCharactersAndConvertsToLowercase[11: MSBib]
@@ -2152,7 +2152,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getIdDoesNotContainWhitespace[12: Ovid]
 ]]></system-out>
 </testcase>
-<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[12: Ovid]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
+<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[12: Ovid]" classname="org.jabref.logic.importer.ImporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B12%3A Ovid%5D]/[test:getIdStripsSpecialCharactersAndConvertsToLowercase%5B12%3A Ovid%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getIdStripsSpecialCharactersAndConvertsToLowercase[12: Ovid]
@@ -2224,7 +2224,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: isRecognizedFormatWithNullForStringThrowsException[14: XMP-annotated PDF]
 ]]></system-out>
 </testcase>
-<testcase name="getFormatterNameDoesNotReturnNull[14: XMP-annotated PDF]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
+<testcase name="getFormatterNameDoesNotReturnNull[14: XMP-annotated PDF]" classname="org.jabref.logic.importer.ImporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B14%3A XMP-annotated PDF%5D]/[test:getFormatterNameDoesNotReturnNull%5B14%3A XMP-annotated PDF%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getFormatterNameDoesNotReturnNull[14: XMP-annotated PDF]
@@ -2272,13 +2272,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getIdDoesNotContainWhitespace[14: XMP-annotated PDF]
 ]]></system-out>
 </testcase>
-<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[14: XMP-annotated PDF]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[14: XMP-annotated PDF]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B14%3A XMP-annotated PDF%5D]/[test:getIdStripsSpecialCharactersAndConvertsToLowercase%5B14%3A XMP-annotated PDF%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getIdStripsSpecialCharactersAndConvertsToLowercase[14: XMP-annotated PDF]
 ]]></system-out>
 </testcase>
-<testcase name="isRecognizedFormatWithNullForStringThrowsException[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
+<testcase name="isRecognizedFormatWithNullForStringThrowsException[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B15%3A REPEC New Economic Papers (NEP)%5D]/[test:isRecognizedFormatWithNullForStringThrowsException%5B15%3A REPEC New Economic Papers (NEP)%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: isRecognizedFormatWithNullForStringThrowsException[15: REPEC New Economic Papers (NEP)]
@@ -2290,13 +2290,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getFormatterNameDoesNotReturnNull[15: REPEC New Economic Papers (NEP)]
 ]]></system-out>
 </testcase>
-<testcase name="getFileTypeDoesNotReturnNull[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="getFileTypeDoesNotReturnNull[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B15%3A REPEC New Economic Papers (NEP)%5D]/[test:getFileTypeDoesNotReturnNull%5B15%3A REPEC New Economic Papers (NEP)%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getFileTypeDoesNotReturnNull[15: REPEC New Economic Papers (NEP)]
 ]]></system-out>
 </testcase>
-<testcase name="importDatabaseWithNullForBufferedReaderThrowsException[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
+<testcase name="importDatabaseWithNullForBufferedReaderThrowsException[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B15%3A REPEC New Economic Papers (NEP)%5D]/[test:importDatabaseWithNullForBufferedReaderThrowsException%5B15%3A REPEC New Economic Papers (NEP)%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: importDatabaseWithNullForBufferedReaderThrowsException[15: REPEC New Economic Papers (NEP)]
@@ -2314,13 +2314,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: isRecognizedFormatWithNullForBufferedReaderThrowsException[15: REPEC New Economic Papers (NEP)]
 ]]></system-out>
 </testcase>
-<testcase name="getDescriptionDoesNotReturnNull[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="getDescriptionDoesNotReturnNull[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B15%3A REPEC New Economic Papers (NEP)%5D]/[test:getDescriptionDoesNotReturnNull%5B15%3A REPEC New Economic Papers (NEP)%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getDescriptionDoesNotReturnNull[15: REPEC New Economic Papers (NEP)]
 ]]></system-out>
 </testcase>
-<testcase name="importDatabaseWithNullForStringThrowsException[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
+<testcase name="importDatabaseWithNullForStringThrowsException[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B15%3A REPEC New Economic Papers (NEP)%5D]/[test:importDatabaseWithNullForStringThrowsException%5B15%3A REPEC New Economic Papers (NEP)%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: importDatabaseWithNullForStringThrowsException[15: REPEC New Economic Papers (NEP)]
@@ -2332,7 +2332,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getIdDoesNotContainWhitespace[15: REPEC New Economic Papers (NEP)]
 ]]></system-out>
 </testcase>
-<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[15: REPEC New Economic Papers (NEP)]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B15%3A REPEC New Economic Papers (NEP)%5D]/[test:getIdStripsSpecialCharactersAndConvertsToLowercase%5B15%3A REPEC New Economic Papers (NEP)%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getIdStripsSpecialCharactersAndConvertsToLowercase[15: REPEC New Economic Papers (NEP)]
@@ -2392,7 +2392,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest
 display-name: getIdDoesNotContainWhitespace[16: RIS]
 ]]></system-out>
 </testcase>
-<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[16: RIS]" classname="org.jabref.logic.importer.ImporterTest" time="0">
+<testcase name="getIdStripsSpecialCharactersAndConvertsToLowercase[16: RIS]" classname="org.jabref.logic.importer.ImporterTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.importer.ImporterTest]/[test:%5B16%3A RIS%5D]/[test:getIdStripsSpecialCharactersAndConvertsToLowercase%5B16%3A RIS%5D(org.jabref.logic.importer.ImporterTest)]
 display-name: getIdStripsSpecialCharactersAndConvertsToLowercase[16: RIS]
@@ -2476,19 +2476,19 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.search.SearchQueryHig
 display-name: addSearchListenerNotifiesRegisteredListenerAboutGrammarBasedSearches
 ]]></system-out>
 </testcase>
-<testcase name="testHowpublishedChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.02">
+<testcase name="testHowpublishedChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.075">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testHowpublishedChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testHowpublishedChecks
 ]]></system-out>
 </testcase>
-<testcase name="testPageNumbersChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.022">
+<testcase name="testPageNumbersChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.018">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testPageNumbersChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testPageNumbersChecks
 ]]></system-out>
 </testcase>
-<testcase name="testDOIChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.012">
+<testcase name="testDOIChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.006">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testDOIChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testDOIChecks
@@ -2512,55 +2512,55 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCh
 display-name: testJournaltitleChecks
 ]]></system-out>
 </testcase>
-<testcase name="testTitleChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.009">
+<testcase name="testTitleChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.014">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testTitleChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testTitleChecks
 ]]></system-out>
 </testcase>
-<testcase name="testMonthChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.007">
+<testcase name="testMonthChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.01">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testMonthChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testMonthChecks
 ]]></system-out>
 </testcase>
-<testcase name="testBooktitleChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.002">
+<testcase name="testBooktitleChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.003">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testBooktitleChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testBooktitleChecks
 ]]></system-out>
 </testcase>
-<testcase name="testBiblatexPageNumbersChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.003">
+<testcase name="testBiblatexPageNumbersChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testBiblatexPageNumbersChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testBiblatexPageNumbersChecks
 ]]></system-out>
 </testcase>
-<testcase name="testUrlChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.006">
+<testcase name="testUrlChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.008">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testUrlChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testUrlChecks
 ]]></system-out>
 </testcase>
-<testcase name="testHTMLCharacterChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.007">
+<testcase name="testHTMLCharacterChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.009">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testHTMLCharacterChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testHTMLCharacterChecks
 ]]></system-out>
 </testcase>
-<testcase name="testFileChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.065">
+<testcase name="testFileChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.079">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testFileChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testFileChecks
 ]]></system-out>
 </testcase>
-<testcase name="testYearChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.021">
+<testcase name="testYearChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.018">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testYearChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testYearChecks
 ]]></system-out>
 </testcase>
-<testcase name="testBibStringChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.007">
+<testcase name="testBibStringChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.008">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testBibStringChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testBibStringChecks
@@ -2572,19 +2572,19 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCh
 display-name: testEntryIsUnchangedAfterChecks
 ]]></system-out>
 </testcase>
-<testcase name="testAuthorNameChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.053">
+<testcase name="testAuthorNameChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.05">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testAuthorNameChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testAuthorNameChecks
 ]]></system-out>
 </testcase>
-<testcase name="testEntryTypeChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.002">
+<testcase name="testEntryTypeChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.003">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testEntryTypeChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testEntryTypeChecks
 ]]></system-out>
 </testcase>
-<testcase name="testEditionChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.005">
+<testcase name="testEditionChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.007">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testEditionChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testEditionChecks
@@ -2596,7 +2596,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCh
 display-name: testISSNChecks
 ]]></system-out>
 </testcase>
-<testcase name="testTypeChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.001">
+<testcase name="testTypeChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.003">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testTypeChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testTypeChecks
@@ -2608,43 +2608,43 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCh
 display-name: testJournalIsKnownInAbbreviationList
 ]]></system-out>
 </testcase>
-<testcase name="testASCIIChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.003">
+<testcase name="testASCIIChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testASCIIChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testASCIIChecks
 ]]></system-out>
 </testcase>
-<testcase name="testBracketChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.004">
+<testcase name="testBracketChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.006">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testBracketChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testBracketChecks
 ]]></system-out>
 </testcase>
-<testcase name="testISBNChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.004">
+<testcase name="testISBNChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.007">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testISBNChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testISBNChecks
 ]]></system-out>
 </testcase>
-<testcase name="testBibtexkeyChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.002">
+<testcase name="testBibtexkeyChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.003">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testBibtexkeyChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testBibtexkeyChecks
 ]]></system-out>
 </testcase>
-<testcase name="testNoteChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.004">
+<testcase name="testNoteChecks" classname="org.jabref.logic.integrity.IntegrityCheckTest" time="0.008">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.integrity.IntegrityCheckTest]/[test:testNoteChecks(org.jabref.logic.integrity.IntegrityCheckTest)]
 display-name: testNoteChecks
 ]]></system-out>
 </testcase>
-<testcase name="testNotEnabledByDefault" classname="org.jabref.logic.protectedterms.ProtectedTermsListTest" time="0.001">
+<testcase name="testNotEnabledByDefault" classname="org.jabref.logic.protectedterms.ProtectedTermsListTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.ProtectedTermsListTest]/[test:testNotEnabledByDefault(org.jabref.logic.protectedterms.ProtectedTermsListTest)]
 display-name: testNotEnabledByDefault
 ]]></system-out>
 </testcase>
-<testcase name="testCanAddTermToExternalList" classname="org.jabref.logic.protectedterms.ProtectedTermsListTest" time="0">
+<testcase name="testCanAddTermToExternalList" classname="org.jabref.logic.protectedterms.ProtectedTermsListTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.ProtectedTermsListTest]/[test:testCanAddTermToExternalList(org.jabref.logic.protectedterms.ProtectedTermsListTest)]
 display-name: testCanAddTermToExternalList
@@ -2662,7 +2662,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.Protec
 display-name: testGetLocation
 ]]></system-out>
 </testcase>
-<testcase name="testTermAddedToExternalList" classname="org.jabref.logic.protectedterms.ProtectedTermsListTest" time="0">
+<testcase name="testTermAddedToExternalList" classname="org.jabref.logic.protectedterms.ProtectedTermsListTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.ProtectedTermsListTest]/[test:testTermAddedToExternalList(org.jabref.logic.protectedterms.ProtectedTermsListTest)]
 display-name: testTermAddedToExternalList
@@ -2680,13 +2680,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.Protec
 display-name: testProtectedTermsListStringListOfStringStringBoolean
 ]]></system-out>
 </testcase>
-<testcase name="testTermNotAddedToInternalList" classname="org.jabref.logic.protectedterms.ProtectedTermsListTest" time="0.001">
+<testcase name="testTermNotAddedToInternalList" classname="org.jabref.logic.protectedterms.ProtectedTermsListTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.ProtectedTermsListTest]/[test:testTermNotAddedToInternalList(org.jabref.logic.protectedterms.ProtectedTermsListTest)]
 display-name: testTermNotAddedToInternalList
 ]]></system-out>
 </testcase>
-<testcase name="testGetTermList" classname="org.jabref.logic.protectedterms.ProtectedTermsListTest" time="0">
+<testcase name="testGetTermList" classname="org.jabref.logic.protectedterms.ProtectedTermsListTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.ProtectedTermsListTest]/[test:testGetTermList(org.jabref.logic.protectedterms.ProtectedTermsListTest)]
 display-name: testGetTermList
@@ -2710,13 +2710,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.Protec
 display-name: testProtectedTermsListStringListOfStringString
 ]]></system-out>
 </testcase>
-<testcase name="testCanNotAddTermToInternalList" classname="org.jabref.logic.protectedterms.ProtectedTermsListTest" time="0">
+<testcase name="testCanNotAddTermToInternalList" classname="org.jabref.logic.protectedterms.ProtectedTermsListTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.ProtectedTermsListTest]/[test:testCanNotAddTermToInternalList(org.jabref.logic.protectedterms.ProtectedTermsListTest)]
 display-name: testCanNotAddTermToInternalList
 ]]></system-out>
 </testcase>
-<testcase name="testGetProtectedTerms" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.001">
+<testcase name="testGetProtectedTerms" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.017">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.ProtectedTermsLoaderTest]/[test:testGetProtectedTerms(org.jabref.logic.protectedterms.ProtectedTermsLoaderTest)]
 display-name: testGetProtectedTerms
@@ -2734,7 +2734,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.Protec
 display-name: testNewListsAreEnabled
 ]]></system-out>
 </testcase>
-<testcase name="testUnknownExternalFileWillNotLoad" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.001">
+<testcase name="testUnknownExternalFileWillNotLoad" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.ProtectedTermsLoaderTest]/[test:testUnknownExternalFileWillNotLoad(org.jabref.logic.protectedterms.ProtectedTermsLoaderTest)]
 display-name: testUnknownExternalFileWillNotLoad
@@ -2746,7 +2746,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.Protec
 display-name: testAddNewTermListAddsList
 ]]></system-out>
 </testcase>
-<testcase name="testAllDisabledNoWords" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.001">
+<testcase name="testAllDisabledNoWords" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.ProtectedTermsLoaderTest]/[test:testAllDisabledNoWords(org.jabref.logic.protectedterms.ProtectedTermsLoaderTest)]
 display-name: testAllDisabledNoWords
@@ -2806,205 +2806,205 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.Protec
 display-name: testRemoveTermListReduceTheCount
 ]]></system-out>
 </testcase>
-<testcase name="testAddProtectedTermsListFromFile" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.002">
+<testcase name="testAddProtectedTermsListFromFile" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.ProtectedTermsLoaderTest]/[test:testAddProtectedTermsListFromFile(org.jabref.logic.protectedterms.ProtectedTermsLoaderTest)]
 display-name: testAddProtectedTermsListFromFile
 ]]></system-out>
 </testcase>
-<testcase name="testReadProtectedTermsListFromFileDisabledWorks" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0">
+<testcase name="testReadProtectedTermsListFromFileDisabledWorks" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.ProtectedTermsLoaderTest]/[test:testReadProtectedTermsListFromFileDisabledWorks(org.jabref.logic.protectedterms.ProtectedTermsLoaderTest)]
 display-name: testReadProtectedTermsListFromFileDisabledWorks
 ]]></system-out>
 </testcase>
-<testcase name="testReadProtectedTermsListFromFileNoDescriptionGivesDefaultDescription" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0.001">
+<testcase name="testReadProtectedTermsListFromFileNoDescriptionGivesDefaultDescription" classname="org.jabref.logic.protectedterms.ProtectedTermsLoaderTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.logic.protectedterms.ProtectedTermsLoaderTest]/[test:testReadProtectedTermsListFromFileNoDescriptionGivesDefaultDescription(org.jabref.logic.protectedterms.ProtectedTermsLoaderTest)]
 display-name: testReadProtectedTermsListFromFileNoDescriptionGivesDefaultDescription
 ]]></system-out>
 </testcase>
-<testcase name="testsAreIndependent[tests independent of org.jabref.preferences.JabRefPreferences?]" classname="org.jabref.architecture.TestArchitectureTests" time="0.081">
+<testcase name="testsAreIndependent[tests independent of org.jabref.preferences.JabRefPreferences?]" classname="org.jabref.architecture.TestArchitectureTests" time="0.777">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.architecture.TestArchitectureTests]/[test:%5Btests independent of org.jabref.preferences.JabRefPreferences?%5D]/[test:testsAreIndependent%5Btests independent of org.jabref.preferences.JabRefPreferences?%5D(org.jabref.architecture.TestArchitectureTests)]
 display-name: testsAreIndependent[tests independent of org.jabref.preferences.JabRefPreferences?]
 ]]></system-out>
 </testcase>
-<testcase name="testsAreIndependent[tests independent of org.jabref.Globals?]" classname="org.jabref.architecture.TestArchitectureTests" time="0.055">
+<testcase name="testsAreIndependent[tests independent of org.jabref.Globals?]" classname="org.jabref.architecture.TestArchitectureTests" time="0.021">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.architecture.TestArchitectureTests]/[test:%5Btests independent of org.jabref.Globals?%5D]/[test:testsAreIndependent%5Btests independent of org.jabref.Globals?%5D(org.jabref.architecture.TestArchitectureTests)]
 display-name: testsAreIndependent[tests independent of org.jabref.Globals?]
 ]]></system-out>
 </testcase>
-<testcase name="deleteWhenDialogCancelledReturnsFalse" classname="org.jabref.gui.fieldeditors.LinkedFileViewModelTest" time="0.014">
+<testcase name="deleteWhenDialogCancelledReturnsFalse" classname="org.jabref.gui.fieldeditors.LinkedFileViewModelTest" time="0.107">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.fieldeditors.LinkedFileViewModelTest]/[test:deleteWhenDialogCancelledReturnsFalse(org.jabref.gui.fieldeditors.LinkedFileViewModelTest)]
 display-name: deleteWhenDialogCancelledReturnsFalse
 ]]></system-out>
 </testcase>
-<testcase name="deleteWhenDeleteChosenAndFileMissingReturnsFalse" classname="org.jabref.gui.fieldeditors.LinkedFileViewModelTest" time="0.002">
+<testcase name="deleteWhenDeleteChosenAndFileMissingReturnsFalse" classname="org.jabref.gui.fieldeditors.LinkedFileViewModelTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.fieldeditors.LinkedFileViewModelTest]/[test:deleteWhenDeleteChosenAndFileMissingReturnsFalse(org.jabref.gui.fieldeditors.LinkedFileViewModelTest)]
 display-name: deleteWhenDeleteChosenAndFileMissingReturnsFalse
 ]]></system-out>
 </testcase>
-<testcase name="deleteWhenFilePathNotPresentReturnsTrue" classname="org.jabref.gui.fieldeditors.LinkedFileViewModelTest" time="0.031">
+<testcase name="deleteWhenFilePathNotPresentReturnsTrue" classname="org.jabref.gui.fieldeditors.LinkedFileViewModelTest" time="0.021">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.fieldeditors.LinkedFileViewModelTest]/[test:deleteWhenFilePathNotPresentReturnsTrue(org.jabref.gui.fieldeditors.LinkedFileViewModelTest)]
 display-name: deleteWhenFilePathNotPresentReturnsTrue
 ]]></system-out>
 </testcase>
-<testcase name="deleteWhenRemoveChosenReturnsTrue" classname="org.jabref.gui.fieldeditors.LinkedFileViewModelTest" time="0.002">
+<testcase name="deleteWhenRemoveChosenReturnsTrue" classname="org.jabref.gui.fieldeditors.LinkedFileViewModelTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.fieldeditors.LinkedFileViewModelTest]/[test:deleteWhenRemoveChosenReturnsTrue(org.jabref.gui.fieldeditors.LinkedFileViewModelTest)]
 display-name: deleteWhenRemoveChosenReturnsTrue
 ]]></system-out>
 </testcase>
-<testcase name="deleteWhenDeleteChosenReturnsTrueAndDeletesFile" classname="org.jabref.gui.fieldeditors.LinkedFileViewModelTest" time="0.002">
+<testcase name="deleteWhenDeleteChosenReturnsTrueAndDeletesFile" classname="org.jabref.gui.fieldeditors.LinkedFileViewModelTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.fieldeditors.LinkedFileViewModelTest]/[test:deleteWhenDeleteChosenReturnsTrueAndDeletesFile(org.jabref.gui.fieldeditors.LinkedFileViewModelTest)]
 display-name: deleteWhenDeleteChosenReturnsTrueAndDeletesFile
 ]]></system-out>
 </testcase>
-<testcase name="switchingFromSourceTabDoesNotThrowException" classname="org.jabref.gui.entryeditor.EntryEditorTest" time="6.487">
+<testcase name="switchingFromSourceTabDoesNotThrowException" classname="org.jabref.gui.entryeditor.EntryEditorTest" time="13.161">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.entryeditor.EntryEditorTest]/[test:switchingFromSourceTabDoesNotThrowException(org.jabref.gui.entryeditor.EntryEditorTest)]
 display-name: switchingFromSourceTabDoesNotThrowException
 ]]></system-out>
 </testcase>
-<testcase name="test" classname="org.jabref.gui.externalfiles.AutoSetFileLinksUtilTest" time="0.11">
+<testcase name="test" classname="org.jabref.gui.externalfiles.AutoSetFileLinksUtilTest" time="3.482">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.externalfiles.AutoSetFileLinksUtilTest]/[test:test(org.jabref.gui.externalfiles.AutoSetFileLinksUtilTest)]
 display-name: test
 ]]></system-out>
 </testcase>
-<testcase name="testWithNullStringDirectory" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0.001">
+<testcase name="testWithNullStringDirectory" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0.072">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.util.FileDialogConfigurationTest]/[test:testWithNullStringDirectory(org.jabref.gui.util.FileDialogConfigurationTest)]
 display-name: testWithNullStringDirectory
 ]]></system-out>
 </testcase>
-<testcase name="testWithValidDirectoryString" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0">
+<testcase name="testWithValidDirectoryString" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0.01">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.util.FileDialogConfigurationTest]/[test:testWithValidDirectoryString(org.jabref.gui.util.FileDialogConfigurationTest)]
 display-name: testWithValidDirectoryString
 ]]></system-out>
 </testcase>
-<testcase name="testWithNonExistingDirectoryAndParentNull" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0">
+<testcase name="testWithNonExistingDirectoryAndParentNull" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0.173">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.util.FileDialogConfigurationTest]/[test:testWithNonExistingDirectoryAndParentNull(org.jabref.gui.util.FileDialogConfigurationTest)]
 display-name: testWithNonExistingDirectoryAndParentNull
 ]]></system-out>
 </testcase>
-<testcase name="testMultipleExtension" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0.003">
+<testcase name="testMultipleExtension" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0.225">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.util.FileDialogConfigurationTest]/[test:testMultipleExtension(org.jabref.gui.util.FileDialogConfigurationTest)]
 display-name: testMultipleExtension
 ]]></system-out>
 </testcase>
-<testcase name="testSingleExtension" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0">
+<testcase name="testSingleExtension" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0.427">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.util.FileDialogConfigurationTest]/[test:testSingleExtension(org.jabref.gui.util.FileDialogConfigurationTest)]
 display-name: testSingleExtension
 ]]></system-out>
 </testcase>
-<testcase name="testWithNullPathDirectory" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0">
+<testcase name="testWithNullPathDirectory" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0.099">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.util.FileDialogConfigurationTest]/[test:testWithNullPathDirectory(org.jabref.gui.util.FileDialogConfigurationTest)]
 display-name: testWithNullPathDirectory
 ]]></system-out>
 </testcase>
-<testcase name="testWithValidDirectoryPath" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0.001">
+<testcase name="testWithValidDirectoryPath" classname="org.jabref.gui.util.FileDialogConfigurationTest" time="0.022">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.util.FileDialogConfigurationTest]/[test:testWithValidDirectoryPath(org.jabref.gui.util.FileDialogConfigurationTest)]
 display-name: testWithValidDirectoryPath
 ]]></system-out>
 </testcase>
-<testcase name="testOpenDuplicatedFileResultsInAnException" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.009">
+<testcase name="testOpenDuplicatedFileResultsInAnException" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.627">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testOpenDuplicatedFileResultsInAnException(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testOpenDuplicatedFileResultsInAnException
 ]]></system-out>
 </testcase>
-<testcase name="testInitialHasNoFilesAndNoAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.001">
+<testcase name="testInitialHasNoFilesAndNoAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.084">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testInitialHasNoFilesAndNoAbbreviations(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testInitialHasNoFilesAndNoAbbreviations
 ]]></system-out>
 </testcase>
-<testcase name="testOpenValidFileContainsTheSpecificEntryAndEnoughAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
+<testcase name="testOpenValidFileContainsTheSpecificEntryAndEnoughAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.036">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testOpenValidFileContainsTheSpecificEntryAndEnoughAbbreviations(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testOpenValidFileContainsTheSpecificEntryAndEnoughAbbreviations
 ]]></system-out>
 </testcase>
-<testcase name="testSaveExternalFilesListToPreferences" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.005">
+<testcase name="testSaveExternalFilesListToPreferences" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.004">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testSaveExternalFilesListToPreferences(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testSaveExternalFilesListToPreferences
 ]]></system-out>
 </testcase>
-<testcase name="testAddDuplicatedAbbreviationResultsInException" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
+<testcase name="testAddDuplicatedAbbreviationResultsInException" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.008">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testAddDuplicatedAbbreviationResultsInException(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testAddDuplicatedAbbreviationResultsInException
 ]]></system-out>
 </testcase>
-<testcase name="testMixedFileUsage" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
+<testcase name="testMixedFileUsage" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.012">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testMixedFileUsage(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testMixedFileUsage
 ]]></system-out>
 </testcase>
-<testcase name="testInitialWithSavedFilesIncrementsFilesCounter" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.003">
+<testcase name="testInitialWithSavedFilesIncrementsFilesCounter" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testInitialWithSavedFilesIncrementsFilesCounter(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testInitialWithSavedFilesIncrementsFilesCounter
 ]]></system-out>
 </testcase>
-<testcase name="testRemoveLastListSetsCurrentFileAndCurrentAbbreviationToNull" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.001">
+<testcase name="testRemoveLastListSetsCurrentFileAndCurrentAbbreviationToNull" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testRemoveLastListSetsCurrentFileAndCurrentAbbreviationToNull(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testRemoveLastListSetsCurrentFileAndCurrentAbbreviationToNull
 ]]></system-out>
 </testcase>
-<testcase name="testSaveAbbreviationsToFilesCreatesNewFilesWithWrittenAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.006">
+<testcase name="testSaveAbbreviationsToFilesCreatesNewFilesWithWrittenAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.706">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testSaveAbbreviationsToFilesCreatesNewFilesWithWrittenAbbreviations(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testSaveAbbreviationsToFilesCreatesNewFilesWithWrittenAbbreviations
 ]]></system-out>
 </testcase>
-<testcase name="testDeleteAbbreviationSelectsNextOne" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.001">
+<testcase name="testDeleteAbbreviationSelectsNextOne" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testDeleteAbbreviationSelectsNextOne(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testDeleteAbbreviationSelectsNextOne
 ]]></system-out>
 </testcase>
-<testcase name="testEditAbbreviationToEmptyNameResultsInException" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.001">
+<testcase name="testEditAbbreviationToEmptyNameResultsInException" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.014">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testEditAbbreviationToEmptyNameResultsInException(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testEditAbbreviationToEmptyNameResultsInException
 ]]></system-out>
 </testcase>
-<testcase name="testSelectLastJournalFileSwitchesFilesAndTheirAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
+<testcase name="testSelectLastJournalFileSwitchesFilesAndTheirAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.003">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testSelectLastJournalFileSwitchesFilesAndTheirAbbreviations(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testSelectLastJournalFileSwitchesFilesAndTheirAbbreviations
 ]]></system-out>
 </testcase>
-<testcase name="testEditAbbreviationToEmptyAbbreviationResultsInException" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
+<testcase name="testEditAbbreviationToEmptyAbbreviationResultsInException" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.007">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testEditAbbreviationToEmptyAbbreviationResultsInException(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testEditAbbreviationToEmptyAbbreviationResultsInException
 ]]></system-out>
 </testcase>
-<testcase name="testEditAbbreviationToExistingOneResultsInException" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.001">
+<testcase name="testEditAbbreviationToExistingOneResultsInException" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testEditAbbreviationToExistingOneResultsInException(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testEditAbbreviationToExistingOneResultsInException
 ]]></system-out>
 </testcase>
-<testcase name="testcurrentFilePropertyChangeActiveFile" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.003">
+<testcase name="testcurrentFilePropertyChangeActiveFile" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testcurrentFilePropertyChangeActiveFile(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testcurrentFilePropertyChangeActiveFile
@@ -3016,13 +3016,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalA
 display-name: testEditAbbreviationIncludesNewAbbreviationInAbbreviationsList
 ]]></system-out>
 </testcase>
-<testcase name="testRemoveDuplicatesWhenReadingFiles" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
+<testcase name="testRemoveDuplicatesWhenReadingFiles" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.014">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testRemoveDuplicatesWhenReadingFiles(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testRemoveDuplicatesWhenReadingFiles
 ]]></system-out>
 </testcase>
-<testcase name="testEditSameAbbreviationWithNoChangeDoesNotResultInException" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
+<testcase name="testEditSameAbbreviationWithNoChangeDoesNotResultInException" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testEditSameAbbreviationWithNoChangeDoesNotResultInException(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testEditSameAbbreviationWithNoChangeDoesNotResultInException
@@ -3034,31 +3034,31 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalA
 display-name: testDeleteAbbreviationSelectsPreviousOne
 ]]></system-out>
 </testcase>
-<testcase name="testBuiltInListsStandardIEEEIncludesAllBuiltIEEEAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.052">
+<testcase name="testBuiltInListsStandardIEEEIncludesAllBuiltIEEEAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.915">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testBuiltInListsStandardIEEEIncludesAllBuiltIEEEAbbreviations(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testBuiltInListsStandardIEEEIncludesAllBuiltIEEEAbbreviations
 ]]></system-out>
 </testcase>
-<testcase name="addDuplicatedFileResultsInErrorDialog" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.001">
+<testcase name="addDuplicatedFileResultsInErrorDialog" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.61">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:addDuplicatedFileResultsInErrorDialog(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: addDuplicatedFileResultsInErrorDialog
 ]]></system-out>
 </testcase>
-<testcase name="addFileIncreasesCounterOfOpenFilesAndHasNoAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
+<testcase name="addFileIncreasesCounterOfOpenFilesAndHasNoAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.931">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:addFileIncreasesCounterOfOpenFilesAndHasNoAbbreviations(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: addFileIncreasesCounterOfOpenFilesAndHasNoAbbreviations
 ]]></system-out>
 </testcase>
-<testcase name="testAddAbbreviationIncludesAbbreviationsInAbbreviationList" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.002">
+<testcase name="testAddAbbreviationIncludesAbbreviationsInAbbreviationList" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.997">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testAddAbbreviationIncludesAbbreviationsInAbbreviationList(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testAddAbbreviationIncludesAbbreviationsInAbbreviationList
 ]]></system-out>
 </testcase>
-<testcase name="testBuiltInListsIncludeAllBuiltInAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.282">
+<testcase name="testBuiltInListsIncludeAllBuiltInAbbreviations" classname="org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest" time="0.362">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest]/[test:testBuiltInListsIncludeAllBuiltInAbbreviations(org.jabref.gui.journals.ManageJournalAbbreviationsViewModelTest)]
 display-name: testBuiltInListsIncludeAllBuiltInAbbreviations
@@ -3094,7 +3094,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.model.entry.AuthorListParam
 display-name: parseCorrectly[4: parse({K}ent-{B}oswell, E. S.)=[Author{firstPart='E. S.', firstAbbr='E. S.', vonPart='null', lastPart='{K}ent-{B}oswell', jrPart='null'}]]
 ]]></system-out>
 </testcase>
-<testcase name="assertDefaultValuesBibtex[0]" classname="org.jabref.model.EntryTypesTest" time="0">
+<testcase name="assertDefaultValuesBibtex[0]" classname="org.jabref.model.EntryTypesTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test:%5B0%5D]/[test:assertDefaultValuesBibtex%5B0%5D(org.jabref.model.EntryTypesTest)]
 display-name: assertDefaultValuesBibtex[0]
@@ -3118,7 +3118,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test
 display-name: unknownTypeIsNotFound[0]
 ]]></system-out>
 </testcase>
-<testcase name="registerCustomEntryTypeDoesNotAffectOtherMode[0]" classname="org.jabref.model.EntryTypesTest" time="0.001">
+<testcase name="registerCustomEntryTypeDoesNotAffectOtherMode[0]" classname="org.jabref.model.EntryTypesTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test:%5B0%5D]/[test:registerCustomEntryTypeDoesNotAffectOtherMode%5B0%5D(org.jabref.model.EntryTypesTest)]
 display-name: registerCustomEntryTypeDoesNotAffectOtherMode[0]
@@ -3130,13 +3130,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test
 display-name: assertDefaultValuesBiblatex[0]
 ]]></system-out>
 </testcase>
-<testcase name="unknownTypeIsConvertedToMiscByGetTypeOrDefault[0]" classname="org.jabref.model.EntryTypesTest" time="0">
+<testcase name="unknownTypeIsConvertedToMiscByGetTypeOrDefault[0]" classname="org.jabref.model.EntryTypesTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test:%5B0%5D]/[test:unknownTypeIsConvertedToMiscByGetTypeOrDefault%5B0%5D(org.jabref.model.EntryTypesTest)]
 display-name: unknownTypeIsConvertedToMiscByGetTypeOrDefault[0]
 ]]></system-out>
 </testcase>
-<testcase name="registeredCustomizedStandardEntryTypeIsContainedInListOfCustomizedEntryTypes[0]" classname="org.jabref.model.EntryTypesTest" time="0.001">
+<testcase name="registeredCustomizedStandardEntryTypeIsContainedInListOfCustomizedEntryTypes[0]" classname="org.jabref.model.EntryTypesTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test:%5B0%5D]/[test:registeredCustomizedStandardEntryTypeIsContainedInListOfCustomizedEntryTypes%5B0%5D(org.jabref.model.EntryTypesTest)]
 display-name: registeredCustomizedStandardEntryTypeIsContainedInListOfCustomizedEntryTypes[0]
@@ -3148,7 +3148,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test
 display-name: standardTypeIsRestoredAfterDeletionOfOverwrittenType[0]
 ]]></system-out>
 </testcase>
-<testcase name="registerCustomEntryType[0]" classname="org.jabref.model.EntryTypesTest" time="0">
+<testcase name="registerCustomEntryType[0]" classname="org.jabref.model.EntryTypesTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test:%5B0%5D]/[test:registerCustomEntryType%5B0%5D(org.jabref.model.EntryTypesTest)]
 display-name: registerCustomEntryType[0]
@@ -3160,7 +3160,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test
 display-name: overwriteStandardTypeRequiredFieldsDoesNotAffectOtherMode[0]
 ]]></system-out>
 </testcase>
-<testcase name="overwriteStandardTypeRequiredFields[0]" classname="org.jabref.model.EntryTypesTest" time="0.001">
+<testcase name="overwriteStandardTypeRequiredFields[0]" classname="org.jabref.model.EntryTypesTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test:%5B0%5D]/[test:overwriteStandardTypeRequiredFields%5B0%5D(org.jabref.model.EntryTypesTest)]
 display-name: overwriteStandardTypeRequiredFields[0]
@@ -3184,7 +3184,7 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test
 display-name: assertDefaultValuesBibtex[1]
 ]]></system-out>
 </testcase>
-<testcase name="standardTypeIsStillAcessibleIfOverwritten[1]" classname="org.jabref.model.EntryTypesTest" time="0">
+<testcase name="standardTypeIsStillAcessibleIfOverwritten[1]" classname="org.jabref.model.EntryTypesTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test:%5B1%5D]/[test:standardTypeIsStillAcessibleIfOverwritten%5B1%5D(org.jabref.model.EntryTypesTest)]
 display-name: standardTypeIsStillAcessibleIfOverwritten[1]
@@ -3244,13 +3244,13 @@ unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test
 display-name: overwriteStandardTypeRequiredFieldsDoesNotAffectOtherMode[1]
 ]]></system-out>
 </testcase>
-<testcase name="overwriteStandardTypeRequiredFields[1]" classname="org.jabref.model.EntryTypesTest" time="0">
+<testcase name="overwriteStandardTypeRequiredFields[1]" classname="org.jabref.model.EntryTypesTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test:%5B1%5D]/[test:overwriteStandardTypeRequiredFields%5B1%5D(org.jabref.model.EntryTypesTest)]
 display-name: overwriteStandardTypeRequiredFields[1]
 ]]></system-out>
 </testcase>
-<testcase name="registeredCustomEntryTypeIsContainedInListOfCustomizedEntryTypes[1]" classname="org.jabref.model.EntryTypesTest" time="0.001">
+<testcase name="registeredCustomEntryTypeIsContainedInListOfCustomizedEntryTypes[1]" classname="org.jabref.model.EntryTypesTest" time="0">
 <system-out><![CDATA[
 unique-id: [engine:junit-vintage]/[runner:org.jabref.model.EntryTypesTest]/[test:%5B1%5D]/[test:registeredCustomEntryTypeIsContainedInListOfCustomizedEntryTypes%5B1%5D(org.jabref.model.EntryTypesTest)]
 display-name: registeredCustomEntryTypeIsContainedInListOfCustomizedEntryTypes[1]
