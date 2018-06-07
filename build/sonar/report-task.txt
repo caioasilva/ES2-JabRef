@@ -2,5 +2,5 @@ projectKey=org.jabref:JabRef
 serverUrl=http://localhost:9000
 serverVersion=6.7.4.38452
 dashboardUrl=http://localhost:9000/dashboard/index/org.jabref:JabRef
-ceTaskId=AWPcDCLfpVpZRdId1P3Q
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWPcDCLfpVpZRdId1P3Q
+ceTaskId=AWPcFAvUpVpZRdId1P3R
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWPcFAvUpVpZRdId1P3R
