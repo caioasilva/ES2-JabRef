@@ -37,7 +37,7 @@ public class MySQLProcessor extends DBMSProcessor {
                 "CREATE TABLE IF NOT EXISTS `METADATA` (" +
                 "`KEY` varchar(255) NOT NULL," +
                 "`VALUE` text NOT NULL)");} catch (Exception e){
-                  System.out.println("Erro:"+e)
+                  System.out.println("Erro:"+e);
                 } finally {
                   connection.close();
                 }

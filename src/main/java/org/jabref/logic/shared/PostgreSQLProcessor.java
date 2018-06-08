@@ -52,7 +52,7 @@ public class PostgreSQLProcessor extends DBMSProcessor {
                 "CREATE TABLE IF NOT EXISTS \"METADATA\" ("
                 + "\"KEY\" VARCHAR,"
                 + "\"VALUE\" TEXT)");} catch (Exception e){
-                  System.out.println("Erro:"+e)
+                  System.out.println("Erro:"+e);
                 }finally {
                   connection.close();
                 }

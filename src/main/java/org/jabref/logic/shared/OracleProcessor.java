@@ -58,7 +58,7 @@ public class OracleProcessor extends DBMSProcessor {
                 "CREATE TABLE \"METADATA\" (" +
                 "\"KEY\"  VARCHAR2(255) NULL," +
                 "\"VALUE\"  CLOB NOT NULL)");} catch (Exception e){
-                  System.out.println("Erro:"+e)
+                  System.out.println("Erro:"+e);
                 }finally {
                   connection.close();
                 }
