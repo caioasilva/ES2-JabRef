@@ -36,7 +36,7 @@ public class PostgreSQLProcessor extends DBMSProcessor {
      */
     @Override
     public void setUp() throws SQLException {
-        connection.createStatement().executeUpdate(
+        try { connection.createStatement().executeUpdate(
                 "CREATE TABLE IF NOT EXISTS \"ENTRY\" (" +
                 "\"SHARED_ID\" SERIAL PRIMARY KEY, " +
                 "\"TYPE\" VARCHAR, " +
@@ -51,7 +51,11 @@ public class PostgreSQLProcessor extends DBMSProcessor {
         connection.createStatement().executeUpdate(
                 "CREATE TABLE IF NOT EXISTS \"METADATA\" ("
                 + "\"KEY\" VARCHAR,"
-                + "\"VALUE\" TEXT)");
+                + "\"VALUE\" TEXT)");} catch (Exception e){
+                  System.out.println("Erro:"+e)
+                }finally {
+                  connection.close();
+                }
     }
 
     @Override

@@ -20,7 +20,7 @@ public class MySQLProcessor extends DBMSProcessor {
      */
     @Override
     public void setUp() throws SQLException {
-        connection.createStatement().executeUpdate(
+      try {connection.createStatement().executeUpdate(
                 "CREATE TABLE IF NOT EXISTS `ENTRY` (" +
                 "`SHARED_ID` INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT, " +
                 "`TYPE` VARCHAR(255) NOT NULL, " +
@@ -36,7 +36,11 @@ public class MySQLProcessor extends DBMSProcessor {
         connection.createStatement().executeUpdate(
                 "CREATE TABLE IF NOT EXISTS `METADATA` (" +
                 "`KEY` varchar(255) NOT NULL," +
-                "`VALUE` text NOT NULL)");
+                "`VALUE` text NOT NULL)");} catch (Exception e){
+                  System.out.println("Erro:"+e)
+                } finally {
+                  connection.close();
+                }
     }
 
     @Override

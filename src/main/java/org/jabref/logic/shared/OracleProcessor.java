@@ -34,7 +34,7 @@ public class OracleProcessor extends DBMSProcessor {
      */
     @Override
     public void setUp() throws SQLException {
-        connection.createStatement().executeUpdate(
+      try {connection.createStatement().executeUpdate(
                 "CREATE TABLE \"ENTRY\" (" +
                 "\"SHARED_ID\" NUMBER NOT NULL, " +
                 "\"TYPE\" VARCHAR2(255) NULL, " +
@@ -57,7 +57,11 @@ public class OracleProcessor extends DBMSProcessor {
         connection.createStatement().executeUpdate(
                 "CREATE TABLE \"METADATA\" (" +
                 "\"KEY\"  VARCHAR2(255) NULL," +
-                "\"VALUE\"  CLOB NOT NULL)");
+                "\"VALUE\"  CLOB NOT NULL)");} catch (Exception e){
+                  System.out.println("Erro:"+e)
+                }finally {
+                  connection.close();
+                }
     }
 
     @Override

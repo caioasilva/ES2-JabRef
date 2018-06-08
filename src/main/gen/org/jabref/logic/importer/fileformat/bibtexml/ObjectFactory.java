@@ -15,6 +15,7 @@ import javax.xml.bind.annotation.XmlRegistry;
 import javax.xml.datatype.XMLGregorianCalendar;
 import javax.xml.namespace.QName;
 
+static final String BIBTEXML = "http://bibtexml.sf.net/";
 
 /**
  * This object contains factory methods for each 
@@ -33,40 +34,40 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _InbookCrossref_QNAME = new QName("http://bibtexml.sf.net/", "crossref");
-    private final static QName _InbookKey_QNAME = new QName("http://bibtexml.sf.net/", "key");
-    private final static QName _InbookLccn_QNAME = new QName("http://bibtexml.sf.net/", "lccn");
-    private final static QName _InbookNumber_QNAME = new QName("http://bibtexml.sf.net/", "number");
-    private final static QName _InbookMrnumber_QNAME = new QName("http://bibtexml.sf.net/", "mrnumber");
-    private final static QName _InbookPages_QNAME = new QName("http://bibtexml.sf.net/", "pages");
-    private final static QName _InbookAffiliation_QNAME = new QName("http://bibtexml.sf.net/", "affiliation");
-    private final static QName _InbookPrice_QNAME = new QName("http://bibtexml.sf.net/", "price");
-    private final static QName _InbookEdition_QNAME = new QName("http://bibtexml.sf.net/", "edition");
-    private final static QName _InbookAnnotate_QNAME = new QName("http://bibtexml.sf.net/", "annotate");
-    private final static QName _InbookLanguage_QNAME = new QName("http://bibtexml.sf.net/", "language");
-    private final static QName _InbookTitle_QNAME = new QName("http://bibtexml.sf.net/", "title");
-    private final static QName _InbookType_QNAME = new QName("http://bibtexml.sf.net/", "type");
-    private final static QName _InbookChapter_QNAME = new QName("http://bibtexml.sf.net/", "chapter");
-    private final static QName _InbookNote_QNAME = new QName("http://bibtexml.sf.net/", "note");
-    private final static QName _InbookCopyright_QNAME = new QName("http://bibtexml.sf.net/", "copyright");
-    private final static QName _InbookKeywords_QNAME = new QName("http://bibtexml.sf.net/", "keywords");
-    private final static QName _InbookYear_QNAME = new QName("http://bibtexml.sf.net/", "year");
-    private final static QName _InbookIsbn_QNAME = new QName("http://bibtexml.sf.net/", "isbn");
-    private final static QName _InbookPublisher_QNAME = new QName("http://bibtexml.sf.net/", "publisher");
-    private final static QName _InbookLocation_QNAME = new QName("http://bibtexml.sf.net/", "location");
-    private final static QName _InbookCategory_QNAME = new QName("http://bibtexml.sf.net/", "category");
-    private final static QName _InbookDoi_QNAME = new QName("http://bibtexml.sf.net/", "doi");
-    private final static QName _InbookVolume_QNAME = new QName("http://bibtexml.sf.net/", "volume");
-    private final static QName _InbookMonth_QNAME = new QName("http://bibtexml.sf.net/", "month");
-    private final static QName _InbookIssn_QNAME = new QName("http://bibtexml.sf.net/", "issn");
-    private final static QName _InbookSize_QNAME = new QName("http://bibtexml.sf.net/", "size");
-    private final static QName _InbookContents_QNAME = new QName("http://bibtexml.sf.net/", "contents");
-    private final static QName _InbookSeries_QNAME = new QName("http://bibtexml.sf.net/", "series");
-    private final static QName _InbookAbstract_QNAME = new QName("http://bibtexml.sf.net/", "abstract");
-    private final static QName _InbookUrl_QNAME = new QName("http://bibtexml.sf.net/", "url");
-    private final static QName _InbookEditor_QNAME = new QName("http://bibtexml.sf.net/", "editor");
-    private final static QName _InbookAddress_QNAME = new QName("http://bibtexml.sf.net/", "address");
-    private final static QName _InbookAuthor_QNAME = new QName("http://bibtexml.sf.net/", "author");
+    private final static QName _InbookCrossref_QNAME = new QName(BIBTEXML, "crossref");
+    private final static QName _InbookKey_QNAME = new QName(BIBTEXML, "key");
+    private final static QName _InbookLccn_QNAME = new QName(BIBTEXML, "lccn");
+    private final static QName _InbookNumber_QNAME = new QName(BIBTEXML, "number");
+    private final static QName _InbookMrnumber_QNAME = new QName(BIBTEXML, "mrnumber");
+    private final static QName _InbookPages_QNAME = new QName(BIBTEXML, "pages");
+    private final static QName _InbookAffiliation_QNAME = new QName(BIBTEXML, "affiliation");
+    private final static QName _InbookPrice_QNAME = new QName(BIBTEXML, "price");
+    private final static QName _InbookEdition_QNAME = new QName(BIBTEXML, "edition");
+    private final static QName _InbookAnnotate_QNAME = new QName(BIBTEXML, "annotate");
+    private final static QName _InbookLanguage_QNAME = new QName(BIBTEXML, "language");
+    private final static QName _InbookTitle_QNAME = new QName(BIBTEXML, "title");
+    private final static QName _InbookType_QNAME = new QName(BIBTEXML, "type");
+    private final static QName _InbookChapter_QNAME = new QName(BIBTEXML, "chapter");
+    private final static QName _InbookNote_QNAME = new QName(BIBTEXML, "note");
+    private final static QName _InbookCopyright_QNAME = new QName(BIBTEXML, "copyright");
+    private final static QName _InbookKeywords_QNAME = new QName(BIBTEXML, "keywords");
+    private final static QName _InbookYear_QNAME = new QName(BIBTEXML, "year");
+    private final static QName _InbookIsbn_QNAME = new QName(BIBTEXML, "isbn");
+    private final static QName _InbookPublisher_QNAME = new QName(BIBTEXML, "publisher");
+    private final static QName _InbookLocation_QNAME = new QName(BIBTEXML, "location");
+    private final static QName _InbookCategory_QNAME = new QName(BIBTEXML, "category");
+    private final static QName _InbookDoi_QNAME = new QName(BIBTEXML, "doi");
+    private final static QName _InbookVolume_QNAME = new QName(BIBTEXML, "volume");
+    private final static QName _InbookMonth_QNAME = new QName(BIBTEXML, "month");
+    private final static QName _InbookIssn_QNAME = new QName(BIBTEXML, "issn");
+    private final static QName _InbookSize_QNAME = new QName(BIBTEXML, "size");
+    private final static QName _InbookContents_QNAME = new QName(BIBTEXML, "contents");
+    private final static QName _InbookSeries_QNAME = new QName(BIBTEXML, "series");
+    private final static QName _InbookAbstract_QNAME = new QName(BIBTEXML, "abstract");
+    private final static QName _InbookUrl_QNAME = new QName(BIBTEXML, "url");
+    private final static QName _InbookEditor_QNAME = new QName(BIBTEXML, "editor");
+    private final static QName _InbookAddress_QNAME = new QName(BIBTEXML, "address");
+    private final static QName _InbookAuthor_QNAME = new QName(BIBTEXML, "author");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: org.jabref.logic.importer.fileformat.bibtexml
@@ -207,7 +208,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "crossref", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "crossref", scope = Inbook.class)
     public JAXBElement<String> createInbookCrossref(String value) {
         return new JAXBElement<String>(_InbookCrossref_QNAME, String.class, Inbook.class, value);
     }
@@ -216,7 +217,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "key", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "key", scope = Inbook.class)
     public JAXBElement<String> createInbookKey(String value) {
         return new JAXBElement<String>(_InbookKey_QNAME, String.class, Inbook.class, value);
     }
@@ -225,7 +226,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "lccn", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "lccn", scope = Inbook.class)
     public JAXBElement<String> createInbookLccn(String value) {
         return new JAXBElement<String>(_InbookLccn_QNAME, String.class, Inbook.class, value);
     }
@@ -234,7 +235,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link BigInteger }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "number", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "number", scope = Inbook.class)
     public JAXBElement<BigInteger> createInbookNumber(BigInteger value) {
         return new JAXBElement<BigInteger>(_InbookNumber_QNAME, BigInteger.class, Inbook.class, value);
     }
@@ -243,7 +244,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "mrnumber", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "mrnumber", scope = Inbook.class)
     public JAXBElement<String> createInbookMrnumber(String value) {
         return new JAXBElement<String>(_InbookMrnumber_QNAME, String.class, Inbook.class, value);
     }
@@ -252,7 +253,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "pages", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "pages", scope = Inbook.class)
     public JAXBElement<String> createInbookPages(String value) {
         return new JAXBElement<String>(_InbookPages_QNAME, String.class, Inbook.class, value);
     }
@@ -261,7 +262,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "affiliation", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "affiliation", scope = Inbook.class)
     public JAXBElement<String> createInbookAffiliation(String value) {
         return new JAXBElement<String>(_InbookAffiliation_QNAME, String.class, Inbook.class, value);
     }
@@ -270,7 +271,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "price", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "price", scope = Inbook.class)
     public JAXBElement<String> createInbookPrice(String value) {
         return new JAXBElement<String>(_InbookPrice_QNAME, String.class, Inbook.class, value);
     }
@@ -279,7 +280,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "edition", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "edition", scope = Inbook.class)
     public JAXBElement<String> createInbookEdition(String value) {
         return new JAXBElement<String>(_InbookEdition_QNAME, String.class, Inbook.class, value);
     }
@@ -288,7 +289,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "annotate", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "annotate", scope = Inbook.class)
     public JAXBElement<String> createInbookAnnotate(String value) {
         return new JAXBElement<String>(_InbookAnnotate_QNAME, String.class, Inbook.class, value);
     }
@@ -297,7 +298,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "language", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "language", scope = Inbook.class)
     public JAXBElement<String> createInbookLanguage(String value) {
         return new JAXBElement<String>(_InbookLanguage_QNAME, String.class, Inbook.class, value);
     }
@@ -306,7 +307,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "title", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "title", scope = Inbook.class)
     public JAXBElement<String> createInbookTitle(String value) {
         return new JAXBElement<String>(_InbookTitle_QNAME, String.class, Inbook.class, value);
     }
@@ -315,7 +316,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "type", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "type", scope = Inbook.class)
     public JAXBElement<String> createInbookType(String value) {
         return new JAXBElement<String>(_InbookType_QNAME, String.class, Inbook.class, value);
     }
@@ -324,7 +325,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link BigInteger }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "chapter", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "chapter", scope = Inbook.class)
     public JAXBElement<BigInteger> createInbookChapter(BigInteger value) {
         return new JAXBElement<BigInteger>(_InbookChapter_QNAME, BigInteger.class, Inbook.class, value);
     }
@@ -333,7 +334,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "note", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "note", scope = Inbook.class)
     public JAXBElement<String> createInbookNote(String value) {
         return new JAXBElement<String>(_InbookNote_QNAME, String.class, Inbook.class, value);
     }
@@ -342,7 +343,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "copyright", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "copyright", scope = Inbook.class)
     public JAXBElement<String> createInbookCopyright(String value) {
         return new JAXBElement<String>(_InbookCopyright_QNAME, String.class, Inbook.class, value);
     }
@@ -351,7 +352,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "keywords", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "keywords", scope = Inbook.class)
     public JAXBElement<String> createInbookKeywords(String value) {
         return new JAXBElement<String>(_InbookKeywords_QNAME, String.class, Inbook.class, value);
     }
@@ -360,7 +361,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "year", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "year", scope = Inbook.class)
     public JAXBElement<XMLGregorianCalendar> createInbookYear(XMLGregorianCalendar value) {
         return new JAXBElement<XMLGregorianCalendar>(_InbookYear_QNAME, XMLGregorianCalendar.class, Inbook.class, value);
     }
@@ -369,7 +370,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "isbn", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "isbn", scope = Inbook.class)
     public JAXBElement<String> createInbookIsbn(String value) {
         return new JAXBElement<String>(_InbookIsbn_QNAME, String.class, Inbook.class, value);
     }
@@ -378,7 +379,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "publisher", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "publisher", scope = Inbook.class)
     public JAXBElement<String> createInbookPublisher(String value) {
         return new JAXBElement<String>(_InbookPublisher_QNAME, String.class, Inbook.class, value);
     }
@@ -387,7 +388,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "location", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "location", scope = Inbook.class)
     public JAXBElement<String> createInbookLocation(String value) {
         return new JAXBElement<String>(_InbookLocation_QNAME, String.class, Inbook.class, value);
     }
@@ -396,7 +397,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "category", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "category", scope = Inbook.class)
     public JAXBElement<String> createInbookCategory(String value) {
         return new JAXBElement<String>(_InbookCategory_QNAME, String.class, Inbook.class, value);
     }
@@ -405,7 +406,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "doi", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "doi", scope = Inbook.class)
     public JAXBElement<String> createInbookDoi(String value) {
         return new JAXBElement<String>(_InbookDoi_QNAME, String.class, Inbook.class, value);
     }
@@ -414,7 +415,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "volume", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "volume", scope = Inbook.class)
     public JAXBElement<String> createInbookVolume(String value) {
         return new JAXBElement<String>(_InbookVolume_QNAME, String.class, Inbook.class, value);
     }
@@ -423,7 +424,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "month", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "month", scope = Inbook.class)
     public JAXBElement<String> createInbookMonth(String value) {
         return new JAXBElement<String>(_InbookMonth_QNAME, String.class, Inbook.class, value);
     }
@@ -432,7 +433,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "issn", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "issn", scope = Inbook.class)
     public JAXBElement<String> createInbookIssn(String value) {
         return new JAXBElement<String>(_InbookIssn_QNAME, String.class, Inbook.class, value);
     }
@@ -441,7 +442,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "size", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "size", scope = Inbook.class)
     public JAXBElement<String> createInbookSize(String value) {
         return new JAXBElement<String>(_InbookSize_QNAME, String.class, Inbook.class, value);
     }
@@ -450,7 +451,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "contents", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "contents", scope = Inbook.class)
     public JAXBElement<String> createInbookContents(String value) {
         return new JAXBElement<String>(_InbookContents_QNAME, String.class, Inbook.class, value);
     }
@@ -459,7 +460,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "series", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "series", scope = Inbook.class)
     public JAXBElement<String> createInbookSeries(String value) {
         return new JAXBElement<String>(_InbookSeries_QNAME, String.class, Inbook.class, value);
     }
@@ -468,7 +469,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "abstract", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "abstract", scope = Inbook.class)
     public JAXBElement<String> createInbookAbstract(String value) {
         return new JAXBElement<String>(_InbookAbstract_QNAME, String.class, Inbook.class, value);
     }
@@ -477,7 +478,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "url", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "url", scope = Inbook.class)
     public JAXBElement<String> createInbookUrl(String value) {
         return new JAXBElement<String>(_InbookUrl_QNAME, String.class, Inbook.class, value);
     }
@@ -486,7 +487,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "editor", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "editor", scope = Inbook.class)
     public JAXBElement<String> createInbookEditor(String value) {
         return new JAXBElement<String>(_InbookEditor_QNAME, String.class, Inbook.class, value);
     }
@@ -495,7 +496,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "address", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "address", scope = Inbook.class)
     public JAXBElement<String> createInbookAddress(String value) {
         return new JAXBElement<String>(_InbookAddress_QNAME, String.class, Inbook.class, value);
     }
@@ -504,7 +505,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://bibtexml.sf.net/", name = "author", scope = Inbook.class)
+    @XmlElementDecl(namespace = BIBTEXML, name = "author", scope = Inbook.class)
     public JAXBElement<String> createInbookAuthor(String value) {
         return new JAXBElement<String>(_InbookAuthor_QNAME, String.class, Inbook.class, value);
     }
