@@ -42,6 +42,12 @@
                 <abbr-1>
                     <style face="normal" font="default" size="100%">Ecology</style>
                 </abbr-1>
+                <abbr-2>
+                    <style face="normal" font="default" size="100%">Ecology</style>
+                </abbr-2>
+                <abbr-3>
+                    <style face="normal" font="default" size="100%">Ecology</style>
+                </abbr-3>
             </periodical>
             <alt-periodical>
                 <full-title>
@@ -50,6 +56,12 @@
                 <abbr-1>
                     <style face="normal" font="default" size="100%">Ecology</style>
                 </abbr-1>
+                <abbr-2>
+                    <style face="normal" font="default" size="100%">Ecology</style>
+                </abbr-2>
+                <abbr-3>
+                    <style face="normal" font="default" size="100%">Ecology</style>
+                </abbr-3>
             </alt-periodical>
             <pages>
                 <style face="normal" font="default" size="100%">93-105</style>
@@ -112,6 +124,9 @@
             <auth-address>
                 <style face="normal" font="default" size="100%">Univ Chicago, Chicago, IL USA</style>
             </auth-address>
+            <auth-affiliaton>
+                <style face="normal" font="default" size="100%">Associate Professor</style>
+            </auth-affiliaton>
             <titles>
                 <title>
                     <style face="normal" font="default" size="100%">A survey of soil temperatures in the Chicago area
@@ -158,6 +173,14 @@
                         <style face="normal" font="default" size="100%">Jan</style>
                     </date>
                 </pub-dates>
+                <copyright-dates>
+                    <date>
+                        <style face="normal" font="default" size="100%">1938</style>
+                    </date>
+                    <date>
+                        <style face="normal" font="default" size="100%">1940</style>
+                    </date>
+                </copyright-dates>
             </dates>
             <isbn>
                 <style face="normal" font="default" size="100%">0012-9658</style>
@@ -179,6 +202,7 @@
             <language>
                 <style face="normal" font="default" size="100%">English</style>
             </language>
+            
         </record>
     </records>
 </xml>
