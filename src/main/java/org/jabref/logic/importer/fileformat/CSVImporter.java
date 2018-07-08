@@ -6,8 +6,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 import java.util.StringTokenizer;
-
-import org.apache.logging.log4j.core.appender.rolling.FileExtension;
 import org.jabref.logic.importer.ImportFormatPreferences;
 import org.jabref.logic.importer.Importer;
 import org.jabref.logic.importer.ParserResult;
