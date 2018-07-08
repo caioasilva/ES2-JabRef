@@ -171,6 +171,10 @@ public class BracketedPattern {
                     authString = entry.getResolvedFieldOrAlias(FieldName.AUTHOR, database).orElse("");
                 }
 
+                if (authString.codePoints().anyMatch(codepoint ->Character.UnicodeScript.of(codepoint) == Character.UnicodeScript.HAN)){
+                    authString = authString.replaceAll(",", "");
+                }
+
                 if (val.startsWith("pure")) {
                     // "pure" is used in the context of authors to resolve to authors only and not fallback to editors
                     // The other functionality of the pattern "ForeIni", ... is the same
