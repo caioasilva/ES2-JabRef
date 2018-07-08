@@ -9,7 +9,10 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.PrintWriter;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -72,6 +75,7 @@ import org.jabref.gui.filelist.FileListTableModel;
 import org.jabref.gui.groups.GroupTreeNodeViewModel;
 import org.jabref.gui.groups.UndoableChangeEntriesOfGroup;
 import org.jabref.gui.help.HelpAction;
+import org.jabref.gui.importer.ImportMenuItem;
 import org.jabref.gui.keyboard.KeyBinding;
 import org.jabref.gui.renderer.GeneralRenderer;
 import org.jabref.gui.undo.NamedCompound;
@@ -717,6 +721,16 @@ public class ImportInspectionDialog extends JabRefDialog implements ImportInspec
             // see if there
             // are unresolved duplicates, and warn if yes.
             if (Globals.prefs.getBoolean(JabRefPreferences.WARN_ABOUT_DUPLICATES_IN_INSPECTION)) {
+                PrintWriter newFile = null;
+                try {
+                    newFile = new PrintWriter("bin/tmp/tempNewDataBase", "UTF-8");
+                    for (BibEntry entry : entries) {
+                        newFile.println(entry);
+                        newFile.print("\n");
+                    }
+                    newFile.close();
+                } catch (FileNotFoundException | UnsupportedEncodingException e) {}
+
                 for (BibEntry entry : entries) {
 
                     // Only check entries that are to be imported. Keep status
@@ -740,6 +754,13 @@ public class ImportInspectionDialog extends JabRefDialog implements ImportInspec
                             Globals.prefs.putBoolean(JabRefPreferences.WARN_ABOUT_DUPLICATES_IN_INSPECTION, false);
                         }
                         if (answer == JOptionPane.NO_OPTION) {
+                            ImportMenuItem imi = new ImportMenuItem(frame, true, null);
+                            imi.automatedImport(Collections.singletonList("bin/tmp/tempNewDatabase"));
+                            BasePanel newPanel = (BasePanel) frame.getTabbedPane().getSelectedComponent();
+                            newPanel.getBibDatabaseContext().setDatabaseFile(null);
+                            newPanel.markBaseChanged();
+                            dispose();
+
                             return;
                         }
                         break;
