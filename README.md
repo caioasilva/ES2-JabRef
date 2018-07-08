@@ -23,11 +23,9 @@ Na funcionalidade Importação de itens bibliográficos na base corrente (File �
 
 Prepare testes que demostrem que as funcionalidades estão funcionando corretamente.
 
-### Desafio para o grupo que quiser tirar 10 – Manutenção Corretiva
+### Desafio – Manutenção Corretiva
 
-Entre em: https://github.com/JabRef/jabref/issues
+Foi escolhida a Issue #4169: can't generate bibtex for Chinese author
+https://github.com/JabRef/jabref/issues/4169
 
-Filtre as Issues pelo Label “Bug”
-
-Escolha um deles e o resolva, implementando a correção na versão 4.2 do JabRef. Antes de corrigir, certifique-se que o referido bug está presente na sua versão/plataforma.
-
+O bug foi devidamente corrigido e será submetido um pull request ao repositório oficial para que o problema não exista mais nas versões futuras.
