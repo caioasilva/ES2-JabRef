@@ -7,6 +7,8 @@ import java.util.regex.Pattern;
 import org.jabref.logic.l10n.Localization;
 import org.jabref.model.strings.StringUtil;
 
+import java.util.Calendar;
+
 public class YearChecker implements ValueChecker {
 
     private static final Predicate<String> CONTAINS_FOUR_DIGIT = Pattern.compile("([^0-9]|^)[0-9]{4}([^0-9]|$)")
@@ -23,6 +25,7 @@ public class YearChecker implements ValueChecker {
      */
     @Override
     public Optional<String> checkValue(String value) {
+
         if (StringUtil.isBlank(value)) {
             return Optional.empty();
         }
@@ -33,6 +36,19 @@ public class YearChecker implements ValueChecker {
 
         if (!ENDS_WITH_FOUR_DIGIT.test(value.replaceAll(PUNCTUATION_MARKS, ""))) {
             return Optional.of(Localization.lang("last four nonpunctuation characters should be numerals"));
+        }
+
+        //check if is a year valid by Java Calendar
+        Calendar cal = Calendar.getInstance();
+        cal.setLenient(false);
+        try {
+            cal.set(Calendar.YEAR, Integer.parseInt(value));
+            if (cal.get(Calendar.YEAR) != Integer.parseInt(value)){
+                return Optional.of(Localization.lang("is not a valid year"));
+            }
+
+        } catch (Exception e) {
+            return Optional.of(Localization.lang("is not a valid year"));
         }
 
         return Optional.empty();
