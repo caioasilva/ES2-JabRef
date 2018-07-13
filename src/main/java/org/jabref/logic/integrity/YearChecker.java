@@ -30,14 +30,6 @@ public class YearChecker implements ValueChecker {
             return Optional.empty();
         }
 
-        if (!CONTAINS_FOUR_DIGIT.test(value.trim())) {
-            return Optional.of(Localization.lang("should contain a four digit number"));
-        }
-
-        if (!ENDS_WITH_FOUR_DIGIT.test(value.replaceAll(PUNCTUATION_MARKS, ""))) {
-            return Optional.of(Localization.lang("last four nonpunctuation characters should be numerals"));
-        }
-
         //check if is a year valid by Java Calendar
         Calendar cal = Calendar.getInstance();
         cal.setLenient(false);

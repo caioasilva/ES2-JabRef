@@ -12,6 +12,7 @@ import org.jabref.model.bibtexkeypattern.GlobalBibtexKeyPattern;
 import org.jabref.model.database.BibDatabase;
 import org.jabref.model.database.BibDatabaseContext;
 import org.jabref.model.entry.BibEntry;
+import org.jabref.model.entry.FieldName;
 import org.jabref.model.strings.StringUtil;
 
 import org.slf4j.Logger;
@@ -102,7 +103,7 @@ public class BibtexKeyGenerator extends BracketedPattern {
     }
 
     public String generateKey(BibEntry entry) {
-        String key;
+        String key="";
         StringBuilder stringBuilder = new StringBuilder();
         try {
             // get the type of entry
@@ -113,6 +114,7 @@ public class BibtexKeyGenerator extends BracketedPattern {
                 typeList.remove(0);
             }
             boolean field = false;
+            /*
             for (String typeListEntry : typeList) {
                 if ("[".equals(typeListEntry)) {
                     field = true;
@@ -136,12 +138,22 @@ public class BibtexKeyGenerator extends BracketedPattern {
                     stringBuilder.append(typeListEntry);
                 }
             }
+            */
+            //Checks if the Bibtexkey informed is valid
+            Optional<String> author = entry.getField(FieldName.AUTHOR);
+            Optional<String> title = entry.getField(FieldName.TITLE);
+            Optional<String> year = entry.getField(FieldName.YEAR);
+            String[] author_words = author.get().split(" ");
+            String lastname = author_words[author_words.length-1];
+            String first_title_word = title.get().split(" ")[0];
+
+            key = lastname + year.get() + first_title_word.toUpperCase();
         } catch (Exception e) {
             LOGGER.warn("Cannot make label", e);
         }
 
         // Remove all illegal characters from the key.
-        key = cleanKey(stringBuilder.toString(), bibtexKeyPatternPreferences.isEnforceLegalKey());
+        key = cleanKey(key, bibtexKeyPatternPreferences.isEnforceLegalKey());
 
         // Remove Regular Expressions while generating Keys
         String regex = bibtexKeyPatternPreferences.getKeyPatternRegex();
