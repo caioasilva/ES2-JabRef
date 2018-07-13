@@ -8,4 +8,6 @@ public interface OutputPrinter {
 
     void showMessage(String string);
 
+	void showMessage(Object message, String title, int msgType);
+
 }

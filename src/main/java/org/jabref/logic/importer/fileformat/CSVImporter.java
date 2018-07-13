@@ -2,6 +2,7 @@ package org.jabref.logic.importer.fileformat;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
@@ -46,8 +47,8 @@ public class CSVImporter extends Importer {
     }
 
     @Override
-    public boolean isRecognizedFormat(BufferedReader reader) {
-        Objects.requireNonNull(reader);
+    public boolean isRecognizedFormat(InputStream stream) {
+        Objects.requireNonNull(stream);
         return true;
     }
 
@@ -86,6 +87,11 @@ public class CSVImporter extends Importer {
         return new ParserResult(entries);
 
     }
+
+	public List<BibEntry> importEntries(InputStream stream, OutputPrinterToNull outputPrinterToNull) {
+		
+		return null;
+	}
 
 
 }
