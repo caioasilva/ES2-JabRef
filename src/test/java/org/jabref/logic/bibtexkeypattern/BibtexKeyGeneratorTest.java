@@ -301,6 +301,21 @@ public class BibtexKeyGeneratorTest {
                 new BibDatabase()), true);
         Assert.that(bibtexKey.contains("王阳"), bibtexKey);
     }
+    
+    @Test
+    public void testBibtexKeyModifiedAuriDefault() throws ParseException {
+        Optional<BibEntry> entry0 = BibtexParser.singleFromString(
+                "@Article{label,\n" +
+                        "  author = {Ana Linda},\n" +
+                        "  title  = {Maravilhoso Mundo de Ana Linda},\n" +
+                        "  year   = {1993},\n" +
+                        "}", importFormatPreferences, fileMonitor);
+        String bibtexKey = BibtexKeyGenerator.cleanKey(BibtexKeyGenerator.generateKey(entry0.get(), "authors3",
+                new BibDatabase()), true);
+        assertEquals("Linda1993MARAVILHOSO",
+                BibtexKeyGenerator.cleanKey(BibtexKeyGenerator.generateKey(entry0.get(), "authors3",
+                        new BibDatabase()), true));
+    }
 
     @Test
     public void testFirstAuthor() {
