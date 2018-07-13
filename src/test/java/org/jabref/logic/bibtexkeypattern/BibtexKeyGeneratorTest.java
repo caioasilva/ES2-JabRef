@@ -289,6 +289,18 @@ public class BibtexKeyGeneratorTest {
                 + "CcEeGgIiZzAaEeIiOoUu" + "DdHhLlLlMmNnRrRrSsTt";
         assertEquals(expectedResults, BibtexKeyGenerator.cleanKey(totest, true));
     }
+    
+    @Test
+    public void testBibtexKeyChineseAuthor() throws ParseException {
+        Optional<BibEntry> entry0 = BibtexParser.singleFromString(
+                "@Article{王阳1985,\n" +
+                        "  author = {王, 阳 and 张, 家发 and 胡, 喜军 and 李, 保明},\n" +
+                        "  year   = {1985},\n" +
+                        "}", importFormatPreferences, fileMonitor);
+        String bibtexKey = BibtexKeyGenerator.cleanKey(BibtexKeyGenerator.generateKey(entry0.get(), "auth3",
+                new BibDatabase()), true);
+        Assert.that(bibtexKey.contains("王阳"), bibtexKey);
+    }
 
     @Test
     public void testFirstAuthor() {
