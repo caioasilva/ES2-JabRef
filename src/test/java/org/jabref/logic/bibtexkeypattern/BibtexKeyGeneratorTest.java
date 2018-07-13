@@ -235,7 +235,7 @@ public class BibtexKeyGeneratorTest {
     @Test
     public void testCheckLegalKey() {
         // not tested/ not in hashmap UNICODE_CHARS:
-        // Ł ł   Ő ő Ű ű   Ŀ ŀ   Ħ ħ   Ð ð Þ þ   Œ œ   Æ æ Ø ø Å å   Ə ə Đ đ   Ů ů	Ǣ ǣ ǖ ǘ ǚ ǜ
+        // Ł ł   Ő ő Ű ű   Ŀ ŀ   Ħ ħ   Ð ð Þ þ   Œ œ   Æ æ Ø ø Å å   Ə ə Đ đ   Ů ů  Ǣ ǣ ǖ ǘ ǚ ǜ
         //" Ǣ ǣ ǖ ǘ ǚ ǜ   " +
         //"Đ đ   Ů ů  " +
         //"Ł ł   Ő ő Ű ű   Ŀ ŀ   Ħ ħ   Ð ð Þ þ   Œ œ   Æ æ Ø ø Å å   Ə ə
@@ -289,19 +289,22 @@ public class BibtexKeyGeneratorTest {
                 + "CcEeGgIiZzAaEeIiOoUu" + "DdHhLlLlMmNnRrRrSsTt";
         assertEquals(expectedResults, BibtexKeyGenerator.cleanKey(totest, true));
     }
-    
+
     @Test
     public void testBibtexKeyChineseAuthor() throws ParseException {
         Optional<BibEntry> entry0 = BibtexParser.singleFromString(
-                "@Article{王阳1985,\n" +
+                "@Article{key,\n" +
                         "  author = {王, 阳 and 张, 家发 and 胡, 喜军 and 李, 保明},\n" +
+                        "  title  = {Title},\n" +
                         "  year   = {1985},\n" +
                         "}", importFormatPreferences, fileMonitor);
         String bibtexKey = BibtexKeyGenerator.cleanKey(BibtexKeyGenerator.generateKey(entry0.get(), "auth3",
                 new BibDatabase()), true);
-        Assert.that(bibtexKey.contains("王阳"), bibtexKey);
+        assertEquals("保明1985TITLE",
+                BibtexKeyGenerator.cleanKey(BibtexKeyGenerator.generateKey(entry0.get(), "authors3",
+                        new BibDatabase()), true));
     }
-    
+
     @Test
     public void testBibtexKeyModifiedAuriDefault() throws ParseException {
         Optional<BibEntry> entry0 = BibtexParser.singleFromString(
@@ -315,18 +318,6 @@ public class BibtexKeyGeneratorTest {
         assertEquals("Linda1993MARAVILHOSO",
                 BibtexKeyGenerator.cleanKey(BibtexKeyGenerator.generateKey(entry0.get(), "authors3",
                         new BibDatabase()), true));
-    }
-
-    @Test
-    public void testBibtexKeyChineseAuthor() throws ParseException {
-        Optional<BibEntry> entry0 = BibtexParser.singleFromString(
-                "@Article{王阳1985,\n" +
-                        "  author = {王, 阳 and 张, 家发 and 胡, 喜军 and 李, 保明},\n" +
-                        "  year   = {1985},\n" +
-                        "}", importFormatPreferences, fileMonitor);
-        String bibtexKey = BibtexKeyGenerator.cleanKey(BibtexKeyGenerator.generateKey(entry0.get(), "auth3",
-                new BibDatabase()), true);
-        Assert.that(bibtexKey.contains("王阳"), bibtexKey);
     }
 
     @Test
