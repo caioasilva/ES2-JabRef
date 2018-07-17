@@ -196,8 +196,4 @@ public abstract class Importer implements Comparable<Importer> {
     public int compareTo(Importer o) {
         return getName().compareTo(o.getName());
     }
-
-	public boolean isRecognizedFormat(InputStream stream) {
-		return true;
-	}
 }
